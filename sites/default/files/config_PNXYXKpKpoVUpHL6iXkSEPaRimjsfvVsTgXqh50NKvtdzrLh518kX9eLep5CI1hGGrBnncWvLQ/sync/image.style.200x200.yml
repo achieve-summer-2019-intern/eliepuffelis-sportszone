@@ -1,0 +1,15 @@
+uuid: 16ab03b0-f935-4844-a057-2cbf44706aac
+langcode: en
+status: true
+dependencies: {  }
+name: 200x200
+label: 'Sidebar 150x150'
+effects:
+  4021ab71-bfa8-407d-9e46-f1c4bf1e2280:
+    uuid: 4021ab71-bfa8-407d-9e46-f1c4bf1e2280
+    id: image_scale
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      upscale: false

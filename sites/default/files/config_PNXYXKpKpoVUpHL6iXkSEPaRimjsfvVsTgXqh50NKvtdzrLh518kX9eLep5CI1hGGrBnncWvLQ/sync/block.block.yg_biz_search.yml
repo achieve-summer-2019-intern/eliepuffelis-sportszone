@@ -1,0 +1,22 @@
+uuid: 38589237-afa5-447f-9a60-0194a9aa8b8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: 5mUpO0CCG0sOItcndoWgeIFBfuzJwEil3jHxJStuqxg
+id: yg_biz_search
+theme: yg_biz
+region: navigation
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

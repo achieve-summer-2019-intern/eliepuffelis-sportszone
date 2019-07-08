@@ -1,0 +1,26 @@
+uuid: 3411d98e-35df-484d-b9d7-41fa00858448
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - sales_zymphonies_theme
+_core:
+  default_config_hash: X5fFGmZTJ5x85XbhgdmnUi43ZG1sV2CAtnqT_x0E3eg
+id: sales_zymphonies_theme_main_menu
+theme: sales_zymphonies_theme
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

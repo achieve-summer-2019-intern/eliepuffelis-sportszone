@@ -1,0 +1,22 @@
+uuid: cc9c0977-fc28-4965-a5d1-14b95a6e2d37
+langcode: en
+status: true
+dependencies:
+  theme:
+    - theone
+_core:
+  default_config_hash: nn1Lk6mCvPylf1Me1COvig7AfIgavwQ101ON6ojvfkA
+id: theone_local_tasks
+theme: theone
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

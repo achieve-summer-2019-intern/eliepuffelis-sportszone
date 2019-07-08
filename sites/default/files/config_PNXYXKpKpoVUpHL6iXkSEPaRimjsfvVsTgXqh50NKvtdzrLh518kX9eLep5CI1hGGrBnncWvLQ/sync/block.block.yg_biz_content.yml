@@ -1,0 +1,22 @@
+uuid: 2ef4f29e-a85a-4d21-b744-89fa604a7195
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: tiCtIeuUakCdmh-XUfIzpGwB4TeOqivxzVfzJ9zWS-E
+id: yg_biz_content
+theme: yg_biz
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

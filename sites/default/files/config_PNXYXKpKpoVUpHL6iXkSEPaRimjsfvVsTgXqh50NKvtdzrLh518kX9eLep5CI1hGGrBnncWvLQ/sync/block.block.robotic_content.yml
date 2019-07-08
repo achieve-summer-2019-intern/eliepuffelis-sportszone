@@ -1,0 +1,22 @@
+uuid: 4cba3e24-7ff7-4526-9c8b-1c421af07760
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: hnPkB2cVQ3tGNlbqJ-0AIYZLJT0U52AltcKIAboFI0k
+id: robotic_content
+theme: robotic
+region: content
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

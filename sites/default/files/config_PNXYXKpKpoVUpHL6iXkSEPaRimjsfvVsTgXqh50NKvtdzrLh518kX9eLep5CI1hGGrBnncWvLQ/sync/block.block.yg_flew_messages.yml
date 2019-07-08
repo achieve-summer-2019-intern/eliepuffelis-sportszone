@@ -1,0 +1,22 @@
+uuid: a9c21dbc-d67c-4a67-9ad8-3db5277ac1ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: MK3pMt7yuVr14DIcEn5GUyJ65F2-NUsupXo87h45hIs
+id: yg_flew_messages
+theme: yg_flew
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

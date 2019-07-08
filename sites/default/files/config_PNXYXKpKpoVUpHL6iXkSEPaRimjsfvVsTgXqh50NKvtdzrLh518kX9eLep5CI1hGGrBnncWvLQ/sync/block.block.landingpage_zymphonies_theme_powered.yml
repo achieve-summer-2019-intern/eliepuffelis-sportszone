@@ -1,0 +1,22 @@
+uuid: 830694ec-50e6-4f8a-b9b0-77a5f1b11279
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - landingpage_zymphonies_theme
+_core:
+  default_config_hash: CzBDRMWXIMHJ2wpW3KRETe8XA_OlM8ODZ4_p3XNk4Sg
+id: landingpage_zymphonies_theme_powered
+theme: landingpage_zymphonies_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

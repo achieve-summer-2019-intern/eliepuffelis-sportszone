@@ -1,0 +1,22 @@
+uuid: e66b8eb0-f7c4-4fe7-a3c1-36f0d9e6eb75
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme
+_core:
+  default_config_hash: 5XrzcbQqkrw17UNDihHT2ehJeIYTy3bvce2unzpaBCU
+id: vartheme_content
+theme: vartheme
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

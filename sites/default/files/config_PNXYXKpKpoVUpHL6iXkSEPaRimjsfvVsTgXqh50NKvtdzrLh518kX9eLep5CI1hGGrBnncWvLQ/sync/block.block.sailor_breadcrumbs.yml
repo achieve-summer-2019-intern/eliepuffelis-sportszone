@@ -1,0 +1,22 @@
+uuid: d9759a4f-3342-4fb2-9b13-679388d141e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sailor
+_core:
+  default_config_hash: xizgpiRtt0wtJGu9CEc88_fsSa1BGV5g4QXRg2U30Js
+id: sailor_breadcrumbs
+theme: sailor
+region: header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

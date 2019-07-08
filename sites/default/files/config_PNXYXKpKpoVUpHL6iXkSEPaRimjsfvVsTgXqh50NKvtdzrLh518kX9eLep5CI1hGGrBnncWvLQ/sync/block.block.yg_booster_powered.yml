@@ -1,0 +1,22 @@
+uuid: 40849261-7c32-4f7a-96bc-1aefd7325873
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_booster
+_core:
+  default_config_hash: '-ZsM1Sr2YziNIqElot-eRloYbRcvPK53mjiG6ds7Y0I'
+id: yg_booster_powered
+theme: yg_booster
+region: footer
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

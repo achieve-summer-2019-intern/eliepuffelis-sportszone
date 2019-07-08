@@ -1,0 +1,14 @@
+uuid: 524bf41c-ebe3-4a46-8dd2-9a4f525a5e07
+name: 'Sports Zone'
+mail: admin@drupalpractice.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/23
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

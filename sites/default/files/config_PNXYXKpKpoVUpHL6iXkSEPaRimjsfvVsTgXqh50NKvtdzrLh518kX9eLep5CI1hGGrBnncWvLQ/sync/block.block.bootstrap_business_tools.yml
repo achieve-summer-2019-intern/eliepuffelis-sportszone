@@ -1,0 +1,26 @@
+uuid: 30aff1d0-9986-4a00-8c86-608900c6dc34
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bootstrap_business
+_core:
+  default_config_hash: pniBX-qx0km_xEJ-zQdo_jUjI3whmWIxhdyKVH4_qqc
+id: bootstrap_business_tools
+theme: bootstrap_business
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

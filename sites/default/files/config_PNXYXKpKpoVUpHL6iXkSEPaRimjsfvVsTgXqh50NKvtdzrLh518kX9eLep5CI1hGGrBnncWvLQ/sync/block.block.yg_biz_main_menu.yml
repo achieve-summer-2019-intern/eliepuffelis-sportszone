@@ -1,0 +1,26 @@
+uuid: 2192a970-1cad-4dbf-86c5-d322d57e612e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: gWbF7k4NUOFiEtv9p_QxfgpeM3e6UXuJPiPxNPhbuQw
+id: yg_biz_main_menu
+theme: yg_biz
+region: main_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

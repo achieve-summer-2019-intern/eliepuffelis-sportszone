@@ -1,0 +1,59 @@
+uuid: b8c83ea7-1543-4a1e-aff5-a8654c234a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sporting_event.body
+    - field.field.node.sporting_event.field_event_date
+    - field.field.node.sporting_event.field_event_video
+    - field.field.node.sporting_event.field_type_of_event
+    - node.type.sporting_event
+  module:
+    - datetime
+    - text
+    - user
+id: node.sporting_event.default
+targetEntityType: node
+bundle: sporting_event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    weight: 1
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'm-d-Y\ h:i:s'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_event_video:
+    type: entity_reference_entity_view
+    weight: 5
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_type_of_event:
+    weight: 4
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

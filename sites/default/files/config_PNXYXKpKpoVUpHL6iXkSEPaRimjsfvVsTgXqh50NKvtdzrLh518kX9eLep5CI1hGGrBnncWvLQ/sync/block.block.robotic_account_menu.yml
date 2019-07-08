@@ -1,0 +1,26 @@
+uuid: afdb8998-c73e-4d39-8efb-937735619f39
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: LygwlTvGSHgBtFuE7r3WaWl98YH3GvEy4JlEcXUFiVY
+id: robotic_account_menu
+theme: robotic
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

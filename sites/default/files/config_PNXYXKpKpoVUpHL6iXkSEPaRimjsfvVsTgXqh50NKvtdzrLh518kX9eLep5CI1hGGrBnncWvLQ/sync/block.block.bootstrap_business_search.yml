@@ -1,0 +1,22 @@
+uuid: df9d1910-c6aa-49ce-aa48-113ac24e2a78
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bootstrap_business
+_core:
+  default_config_hash: sw1KFUdHDaPrUxsqDFmjVbmuEFZEXUd8aSDLbPrbHQM
+id: bootstrap_business_search
+theme: bootstrap_business
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

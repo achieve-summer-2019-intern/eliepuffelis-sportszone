@@ -1,0 +1,42 @@
+uuid: 36527463-c17a-449d-8dc5-312bac3c2a4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.test_block
+    - field.field.block_content.test_block.body
+    - field.field.block_content.test_block.field_sport_event
+  module:
+    - text
+id: block_content.test_block.default
+targetEntityType: block_content
+bundle: test_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_sport_event:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

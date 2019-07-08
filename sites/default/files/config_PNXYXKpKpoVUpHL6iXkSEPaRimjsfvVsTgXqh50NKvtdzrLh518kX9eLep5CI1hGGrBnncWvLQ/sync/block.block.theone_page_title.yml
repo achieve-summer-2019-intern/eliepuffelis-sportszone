@@ -1,0 +1,20 @@
+uuid: f8d33cc2-06c7-4345-acfe-7de6acac5226
+langcode: en
+status: true
+dependencies:
+  theme:
+    - theone
+_core:
+  default_config_hash: a_ewKQxu8obIPnNMIOBV6iFGLMm334WARDJJb3Hlv6w
+id: theone_page_title
+theme: theone
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

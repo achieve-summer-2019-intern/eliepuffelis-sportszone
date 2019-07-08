@@ -1,0 +1,10 @@
+uuid: 1de1e3b5-3ba9-448f-a9d4-629bc3122060
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.sport_event
+label: 'Sport Event'
+targetEntityType: node
+cache: true

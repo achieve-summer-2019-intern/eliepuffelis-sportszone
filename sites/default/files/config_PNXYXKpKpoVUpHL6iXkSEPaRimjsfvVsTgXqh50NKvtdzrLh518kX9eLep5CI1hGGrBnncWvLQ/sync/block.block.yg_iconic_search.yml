@@ -1,0 +1,22 @@
+uuid: f17754fc-d153-41f9-8e2c-3ad3797e362f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - yg_iconic
+_core:
+  default_config_hash: 5mUpO0CCG0sOItcndoWgeIFBfuzJwEil3jHxJStuqxg
+id: yg_iconic_search
+theme: yg_iconic
+region: navigation
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

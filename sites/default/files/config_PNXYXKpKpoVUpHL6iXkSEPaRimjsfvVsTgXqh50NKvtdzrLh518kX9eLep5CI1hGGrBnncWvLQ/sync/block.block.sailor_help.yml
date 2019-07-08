@@ -1,0 +1,22 @@
+uuid: 8b0bdf7f-2a78-4678-89c4-d56e1b8e53c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sailor
+_core:
+  default_config_hash: Mq0TQAI4ny5elhJVMGkxhV6NhTRXFT069l-wfB-QINM
+id: sailor_help
+theme: sailor
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

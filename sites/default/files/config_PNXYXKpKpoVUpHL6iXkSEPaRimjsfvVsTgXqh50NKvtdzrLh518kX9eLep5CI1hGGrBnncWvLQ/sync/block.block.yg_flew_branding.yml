@@ -1,0 +1,25 @@
+uuid: 5ccc1119-0b44-4203-9c3a-098af5c6e859
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: otvnd65j4dyUIyvCDM3GkGCMFOMhONA3njmD8_hStkU
+id: yg_flew_branding
+theme: yg_flew
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

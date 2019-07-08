@@ -1,0 +1,25 @@
+uuid: c2dfcab2-15e3-4ac8-b201-f16dc3673e2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: FShX_EAsUfEE1mZQK2-qZ5y4WFlFzyDqgdQ8iTFogQg
+id: smallbusiness_branding
+theme: smallbusiness
+region: header
+weight: 2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

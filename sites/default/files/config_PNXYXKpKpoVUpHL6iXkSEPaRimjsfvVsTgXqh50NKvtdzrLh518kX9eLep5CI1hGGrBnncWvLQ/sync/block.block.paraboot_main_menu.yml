@@ -1,0 +1,26 @@
+uuid: d0364af9-68f1-40ce-b92e-8f8b225ad4eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - paraboot
+_core:
+  default_config_hash: lHV5hXq2bIlb2FOZyNnc5F-c103EDJkMOPXP1uy8FNs
+id: paraboot_main_menu
+theme: paraboot
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

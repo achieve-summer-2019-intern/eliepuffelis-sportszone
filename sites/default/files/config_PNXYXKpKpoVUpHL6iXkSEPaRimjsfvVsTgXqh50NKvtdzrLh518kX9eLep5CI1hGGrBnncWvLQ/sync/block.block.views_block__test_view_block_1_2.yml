@@ -1,0 +1,24 @@
+uuid: 2bae1f38-c7b5-4a0c-8848-59bd50ad88e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.test_view
+  module:
+    - views
+  theme:
+    - business_responsive_theme
+id: views_block__test_view_block_1_2
+theme: business_responsive_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:test_view-block_1'
+settings:
+  id: 'views_block:test_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

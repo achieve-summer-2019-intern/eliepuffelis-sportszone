@@ -1,0 +1,22 @@
+uuid: 72e7a3ee-00fe-453e-9424-02deeb007e9f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sailor
+_core:
+  default_config_hash: m16xwKAk4e40tHfNipsS95p1M1UYzTgjVKGWwxEiK48
+id: sailor_local_tasks
+theme: sailor
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

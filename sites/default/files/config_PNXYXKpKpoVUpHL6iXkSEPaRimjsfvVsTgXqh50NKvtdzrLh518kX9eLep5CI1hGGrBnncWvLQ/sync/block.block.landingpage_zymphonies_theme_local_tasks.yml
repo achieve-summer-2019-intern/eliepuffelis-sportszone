@@ -1,0 +1,22 @@
+uuid: 5ca0ef82-1b67-49c7-8348-1e0f8b0351db
+langcode: en
+status: true
+dependencies:
+  theme:
+    - landingpage_zymphonies_theme
+_core:
+  default_config_hash: m16xwKAk4e40tHfNipsS95p1M1UYzTgjVKGWwxEiK48
+id: landingpage_zymphonies_theme_local_tasks
+theme: landingpage_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

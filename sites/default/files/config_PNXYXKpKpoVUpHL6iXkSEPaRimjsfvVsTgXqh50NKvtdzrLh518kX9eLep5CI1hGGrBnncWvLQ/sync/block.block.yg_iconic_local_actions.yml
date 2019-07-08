@@ -1,0 +1,20 @@
+uuid: 42b048c9-d03d-472e-b8fe-ec65ab91e005
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yg_iconic
+_core:
+  default_config_hash: fzcRbR50tVy1H80vDceunFiERjGVPlRA3pppWp6BFGI
+id: yg_iconic_local_actions
+theme: yg_iconic
+region: content
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

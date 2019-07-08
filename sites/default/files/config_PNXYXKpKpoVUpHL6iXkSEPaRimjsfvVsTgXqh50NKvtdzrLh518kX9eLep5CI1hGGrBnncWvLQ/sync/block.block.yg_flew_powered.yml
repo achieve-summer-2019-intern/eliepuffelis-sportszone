@@ -1,0 +1,22 @@
+uuid: 1014dec5-8a8d-4399-969b-e0c23ecf4b08
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: CzBDRMWXIMHJ2wpW3KRETe8XA_OlM8ODZ4_p3XNk4Sg
+id: yg_flew_powered
+theme: yg_flew
+region: navigation
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

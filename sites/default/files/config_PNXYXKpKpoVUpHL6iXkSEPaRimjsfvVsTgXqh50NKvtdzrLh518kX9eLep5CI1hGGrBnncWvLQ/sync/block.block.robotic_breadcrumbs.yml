@@ -1,0 +1,22 @@
+uuid: 9ede576c-40f9-4138-ac8a-f08eb8b1d9a0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: QltM0qPYfxhNIUpQicn2OmbOm9GlfhqosOdBMpg3WFc
+id: robotic_breadcrumbs
+theme: robotic
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

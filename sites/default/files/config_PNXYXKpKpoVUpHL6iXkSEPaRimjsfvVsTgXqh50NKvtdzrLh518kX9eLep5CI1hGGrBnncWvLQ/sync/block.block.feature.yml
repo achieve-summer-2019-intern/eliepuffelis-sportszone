@@ -1,0 +1,23 @@
+uuid: be13512c-0d62-405c-8a32-b5bbc50e0dca
+langcode: en
+status: true
+dependencies:
+  theme:
+    - robotic
+_core:
+  default_config_hash: q3SqIks2uDxVuqgXKvL9YjG-iWG7R8LwGcl_oFw4D_s
+id: feature
+theme: robotic
+region: home_feature
+weight: 0
+provider: null
+plugin: 'block_content:35132017-8318-421b-8e9d-0eb134ccadba'
+settings:
+  id: 'block_content:35132017-8318-421b-8e9d-0eb134ccadba'
+  label: feature
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

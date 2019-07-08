@@ -1,0 +1,31 @@
+uuid: 1d2cb7db-ac42-4945-9173-a813ce429c02
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.test_block
+    - field.field.block_content.test_block.body
+    - field.field.block_content.test_block.field_sport_event
+  module:
+    - text
+id: block_content.test_block.default
+targetEntityType: block_content
+bundle: test_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_sport_event:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

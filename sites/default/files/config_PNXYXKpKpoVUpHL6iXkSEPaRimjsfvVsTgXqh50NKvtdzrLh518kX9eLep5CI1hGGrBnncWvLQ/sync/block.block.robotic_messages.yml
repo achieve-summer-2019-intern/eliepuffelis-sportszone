@@ -1,0 +1,22 @@
+uuid: c4e0ad65-5dfb-4c7c-8d33-5e35668e1ee1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: Nvuw5wRRhk11HvLFYyrCmYX9nRUxEapMb1AsT_5RG-c
+id: robotic_messages
+theme: robotic
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

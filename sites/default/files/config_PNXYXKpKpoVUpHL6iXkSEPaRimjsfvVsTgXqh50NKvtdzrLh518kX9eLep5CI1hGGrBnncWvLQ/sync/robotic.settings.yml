@@ -1,0 +1,58 @@
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: true
+  node_user_picture: true
+  slogan: true
+social_class_1: fa-facebook
+social_links_1: 'https://www.facebook.com/syedsalimhossain'
+social_class_2: fa-twitter
+social_links_2: 'https://twitter.com/robotic'
+social_class_3: fa-google-plus
+social_links_3: 'https://plus.google.com/+robotic'
+social_class_4: fa-linkedin
+social_links_4: 'http://www.linkedin.com/company/robotic'
+social_class_5: fa-pinterest
+social_links_5: 'https://www.pinterest.com/robotic/'
+rss_url: rss.xml
+show_credit_link: 1
+is_slideshow: 1
+slide_number: '3'
+socialicon: 1
+is_map: 0
+body_bg: '#ffffff'
+color_bg: '#f2f2f2'
+color_font: '#000000'
+slide_title_1: 'Lorem Ipsum is simply dummy text 1'
+slide_description_1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
+slide_url_1: /
+slide_image_path_1: /images/slider/slide-1.png
+slide_color_1: '#5fa924'
+slide_title_2: 'Lorem Ipsum is simply dummy text 2'
+slide_description_2: 'long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution'
+slide_url_2: /
+slide_image_path_2: /images/slider/slide-2.png
+slide_color_2: '#35a1dc'
+slide_title_3: 'Lorem Ipsum is simply dummy text 3'
+slide_description_3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'
+slide_url_3: /
+slide_image_path_3: /images/slider/slide-3.png
+slide_color_3: '#ffb300'
+_core:
+  default_config_hash: MKezo49vnFDO-djZLePFT0AobObtboMZgM59NgPSMEQ
+logo:
+  use_default: true
+favicon:
+  use_default: true
+gmapapi_key: ''
+slide_image_path1: {  }
+slide_image_path2: {  }
+slide_image_path3: {  }
+social_class_6: ''
+social_links_6: ''
+social_class_7: ''
+social_links_7: ''
+social_class_8: ''
+social_links_8: ''

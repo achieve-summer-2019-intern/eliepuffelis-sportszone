@@ -1,0 +1,26 @@
+uuid: 345e3b32-578a-4926-a285-d47a9abdf520
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: t1JNLeeniHA8No5P4eb-UqNuKiiUYCqwQou7gHUyarg
+id: smallbusiness_main_menu
+theme: smallbusiness
+region: header
+weight: 3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

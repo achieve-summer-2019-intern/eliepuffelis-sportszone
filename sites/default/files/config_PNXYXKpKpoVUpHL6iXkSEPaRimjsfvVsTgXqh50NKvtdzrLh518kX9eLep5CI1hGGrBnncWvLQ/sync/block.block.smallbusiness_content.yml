@@ -1,0 +1,22 @@
+uuid: 5f055212-f9fa-44bb-9119-ba62f7ba3c14
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: TnHVR9L1st6KM8c7sDJXZoUbpBUWBGJlz3kRZglGZ5o
+id: smallbusiness_content
+theme: smallbusiness
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

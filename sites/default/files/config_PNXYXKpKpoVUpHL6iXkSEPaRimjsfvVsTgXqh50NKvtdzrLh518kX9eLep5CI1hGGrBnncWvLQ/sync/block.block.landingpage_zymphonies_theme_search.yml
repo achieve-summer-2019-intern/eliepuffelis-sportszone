@@ -1,0 +1,22 @@
+uuid: 9b231c1f-08ed-46d2-b7a1-86e9c9e7d29d
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - landingpage_zymphonies_theme
+_core:
+  default_config_hash: GNE_YnpyaapuvxKTfzBFVMnm6mv-p0yeO8AKpxipGys
+id: landingpage_zymphonies_theme_search
+theme: landingpage_zymphonies_theme
+region: auto_hidden_block
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

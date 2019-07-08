@@ -1,0 +1,22 @@
+uuid: 5b1cf2d4-7490-45a7-a670-5e3c4cb59786
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: KlEKhlwuekDUuU3MXHZmNkJgPWwUPlGRboD1cWQZknM
+id: robotic_powered
+theme: robotic
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

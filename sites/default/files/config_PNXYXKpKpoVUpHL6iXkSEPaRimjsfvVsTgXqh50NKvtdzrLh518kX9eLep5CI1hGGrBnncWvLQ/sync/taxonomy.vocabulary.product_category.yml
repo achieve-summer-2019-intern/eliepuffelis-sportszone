@@ -1,0 +1,11 @@
+uuid: 6a32d0fa-9249-4f6f-a441-03d88fec0af1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ToiV_3vAS7SOL-rq6B8-_YWsYkKZHOxbZL0Y_dqwF6s
+name: 'Product category'
+vid: product_category
+description: ''
+hierarchy: 1
+weight: 0

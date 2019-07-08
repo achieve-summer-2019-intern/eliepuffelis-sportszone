@@ -1,0 +1,20 @@
+uuid: f100ea94-8a22-411f-a918-0b4e3a0a5520
+langcode: en
+status: true
+dependencies:
+  theme:
+    - theone
+_core:
+  default_config_hash: ng-kM_yCPtkiKiKv3JlE2F2fzheJj1LWMEEMf4VfQ7k
+id: theone_local_actions
+theme: theone
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

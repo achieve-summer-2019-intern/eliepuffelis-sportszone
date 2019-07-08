@@ -1,0 +1,22 @@
+uuid: 4e066fdb-de05-40d5-8d77-4a692dd6972a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sailor
+_core:
+  default_config_hash: GNE_YnpyaapuvxKTfzBFVMnm6mv-p0yeO8AKpxipGys
+id: sailor_search
+theme: sailor
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

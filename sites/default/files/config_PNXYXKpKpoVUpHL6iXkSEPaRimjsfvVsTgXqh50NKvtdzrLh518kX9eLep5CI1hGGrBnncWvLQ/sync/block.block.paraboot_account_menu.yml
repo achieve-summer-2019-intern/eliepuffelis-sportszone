@@ -1,0 +1,26 @@
+uuid: 116ad5ad-9cb9-456b-b8cc-8c0dd2666ad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - paraboot
+_core:
+  default_config_hash: Rt7Mt_h_9Sno49WSTqAK14DerNpqYBu14SCs4tAtuwE
+id: paraboot_account_menu
+theme: paraboot
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 1
+visibility: {  }

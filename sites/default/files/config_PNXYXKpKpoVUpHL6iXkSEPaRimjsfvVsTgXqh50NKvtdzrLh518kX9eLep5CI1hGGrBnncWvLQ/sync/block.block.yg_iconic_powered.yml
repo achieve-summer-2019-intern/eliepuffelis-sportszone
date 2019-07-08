@@ -1,0 +1,22 @@
+uuid: fe2511f2-bfac-4cb6-9d9a-1321db85bcb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_iconic
+_core:
+  default_config_hash: fmT7cn1L51j9VGhSs7pY56J0JtCa6nVvmyinfRX2VWY
+id: yg_iconic_powered
+theme: yg_iconic
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

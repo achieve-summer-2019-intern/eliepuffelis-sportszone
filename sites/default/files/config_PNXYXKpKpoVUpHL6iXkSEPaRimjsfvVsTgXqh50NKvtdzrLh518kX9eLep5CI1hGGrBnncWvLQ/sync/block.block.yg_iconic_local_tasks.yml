@@ -1,0 +1,22 @@
+uuid: 23c17102-3288-443e-94fc-3f3da60fcb10
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yg_iconic
+_core:
+  default_config_hash: swyVFGmrlufac1lSZ7FLFVyBfshaYLxPolAWz_igNZI
+id: yg_iconic_local_tasks
+theme: yg_iconic
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

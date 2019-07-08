@@ -1,0 +1,26 @@
+uuid: 5373095d-bbb6-4f9b-ae82-e119d525337d
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - landingpage_zymphonies_theme
+_core:
+  default_config_hash: oV6Af8TTFJCE-8FOVOAyYFCHaSWOj9w_Ln1x5xj_L9w
+id: landingpage_zymphonies_theme_account_menu
+theme: landingpage_zymphonies_theme
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

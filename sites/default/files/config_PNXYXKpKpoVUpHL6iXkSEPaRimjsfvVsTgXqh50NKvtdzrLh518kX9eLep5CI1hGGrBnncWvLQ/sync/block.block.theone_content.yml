@@ -1,0 +1,22 @@
+uuid: 7cec70c9-1351-40bd-8e5b-6a59b0d68d77
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - theone
+_core:
+  default_config_hash: Fuvo_V2eVvIP87aTfCPvxZp6d5ggdIwcWaPSVVRKsa8
+id: theone_content
+theme: theone
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

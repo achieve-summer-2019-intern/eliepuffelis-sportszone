@@ -1,0 +1,22 @@
+uuid: d0499bfa-7e32-4d55-811e-9d73adff2ef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sales_zymphonies_theme
+_core:
+  default_config_hash: b4ArTA86tRoVpESZzLQn_GFQYUNazDsuIpm5S9_e8bs
+id: sales_zymphonies_theme_content
+theme: sales_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

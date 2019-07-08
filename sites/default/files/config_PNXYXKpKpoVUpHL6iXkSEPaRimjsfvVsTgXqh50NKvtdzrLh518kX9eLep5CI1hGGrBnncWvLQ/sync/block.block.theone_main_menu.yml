@@ -1,0 +1,26 @@
+uuid: c10ca0ed-e385-4725-8996-4a1d0a7a1c9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - theone
+_core:
+  default_config_hash: lHV5hXq2bIlb2FOZyNnc5F-c103EDJkMOPXP1uy8FNs
+id: theone_main_menu
+theme: theone
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

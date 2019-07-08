@@ -1,0 +1,26 @@
+uuid: aede9978-0617-44a4-9a22-bf4c4c910e12
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: dMnNMFgldpQQgOvOIksThi7Uhlu8xVco2dXhBRqei2k
+id: yg_biz_account_menu
+theme: yg_biz
+region: navigation
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

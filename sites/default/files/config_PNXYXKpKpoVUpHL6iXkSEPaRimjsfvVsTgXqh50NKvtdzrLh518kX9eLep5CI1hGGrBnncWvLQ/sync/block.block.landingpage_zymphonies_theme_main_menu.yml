@@ -1,0 +1,26 @@
+uuid: 0ea7f38e-796d-4827-a8d2-56300c86da40
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - landingpage_zymphonies_theme
+_core:
+  default_config_hash: VLTHnMNSTH3n6hTor_ZGEpndhx1Y3ECbY8TaDSfSvIM
+id: landingpage_zymphonies_theme_main_menu
+theme: landingpage_zymphonies_theme
+region: welcome_message
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

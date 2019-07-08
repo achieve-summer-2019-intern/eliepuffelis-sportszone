@@ -1,0 +1,22 @@
+uuid: 0192985e-64cb-4c5a-bfec-6c4482a1e570
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - theone
+_core:
+  default_config_hash: VNXt_FUOrgtRAcsXGFJLNkGtGVxnh_MUYBT5j4Vi7Vc
+id: theone_breadcrumbs
+theme: theone
+region: navigation
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

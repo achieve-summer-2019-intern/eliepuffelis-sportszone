@@ -1,0 +1,22 @@
+uuid: 99c055a9-53c7-4f4d-b5b3-ef09956f1f69
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sales_zymphonies_theme
+_core:
+  default_config_hash: lg4WNVqXCCcSLxUVUsNeYjssDTYUQ4Bs61C0M78t_kw
+id: sales_zymphonies_theme_help
+theme: sales_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

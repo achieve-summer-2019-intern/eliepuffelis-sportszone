@@ -1,0 +1,20 @@
+uuid: e8d4c621-2055-44a6-82eb-22d352bd0273
+langcode: en
+status: true
+dependencies:
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: Dpt945ddU6OQ6z6L2Egnd-UFZee1c7MSJeUQnSbLyPU
+id: smallbusiness_page_title
+theme: smallbusiness
+region: footer
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

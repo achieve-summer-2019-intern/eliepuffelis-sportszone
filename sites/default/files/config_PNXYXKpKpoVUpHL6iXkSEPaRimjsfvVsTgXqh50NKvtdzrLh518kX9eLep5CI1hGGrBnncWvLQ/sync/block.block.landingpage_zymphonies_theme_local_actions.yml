@@ -1,0 +1,20 @@
+uuid: 196f6d6a-f06b-4a76-8a6a-560ef86298ae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - landingpage_zymphonies_theme
+_core:
+  default_config_hash: ezlPRLjewWTFxdSznLfIlonFACfo-Nm_W3WU8A_bsHA
+id: landingpage_zymphonies_theme_local_actions
+theme: landingpage_zymphonies_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

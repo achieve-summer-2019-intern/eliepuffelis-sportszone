@@ -1,0 +1,26 @@
+uuid: 28648cd1-3287-4fcb-9fe3-e97f12c841a5
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: cPoZvdxmix1J-xV5YU3zJ2RsJQ6m_eLEaRGvFNwUMlQ
+id: yg_biz_tools
+theme: yg_biz
+region: navigation
+weight: 1
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

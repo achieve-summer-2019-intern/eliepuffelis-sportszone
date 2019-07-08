@@ -1,0 +1,20 @@
+uuid: 79f2c6d3-8be1-463b-88dc-49de4f3831cc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - paraboot
+_core:
+  default_config_hash: ng-kM_yCPtkiKiKv3JlE2F2fzheJj1LWMEEMf4VfQ7k
+id: paraboot_local_actions
+theme: paraboot
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

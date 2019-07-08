@@ -1,0 +1,45 @@
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 0
+  logo: true
+  name: true
+  node_user_picture: 1
+  slogan: true
+facebook_url: 'https://www.facebook.com/zymphonies'
+twitter_url: 'https://twitter.com/zymphonies'
+google_plus_url: 'https://plus.google.com/+ZymphoniesTechnologies'
+linkedin_url: ''
+pinterest_url: ''
+rss_url: ''
+copyright_text: 'Copyright 2019. All rights reserved'
+show_social_icon: 1
+show_credit_link: 0
+show_slideshow: 1
+no_of_slides: '3'
+slide_title_1: 'Barcelona Repeat as Champions'
+slide_description_1: 'Leonel Messi leads Barcelona to multiple cups this season'
+slide_url_1: ''
+slide_image_path_1: /images/slider/slide_01.jpg
+slide_title_2: 'Lebron''s Lakers'
+slide_description_2: 'Will the lakers be the best team in Los Angeles?'
+slide_url_2: ''
+slide_image_path_2: /images/slider/slide_02.jpg
+slide_title_3: 'Surf in San Diego'
+slide_description_3: 'San Diego is coming up in the desired surfing places'
+slide_url_3: ''
+slide_image_path_3: /images/slider/slide_03.jpg
+_core:
+  default_config_hash: PWP21nDtR9uKbJemVIYpmCZhslztOQOPHXUWPacsujg
+logo:
+  use_default: 0
+  path: 'public://logo.png'
+favicon:
+  use_default: 0
+  path: ''
+slide_image_path1:
+  - '42'
+slide_image_path2:
+  - '43'
+slide_image_path3:
+  - '44'

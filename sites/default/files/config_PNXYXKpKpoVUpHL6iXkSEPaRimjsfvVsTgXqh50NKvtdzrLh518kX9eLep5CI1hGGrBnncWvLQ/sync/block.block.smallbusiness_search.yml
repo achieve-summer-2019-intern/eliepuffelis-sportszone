@@ -1,0 +1,22 @@
+uuid: 5a5e8e72-424a-45b7-9f28-9388f2a3fd92
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: eG9oK8j9uKqoLZxekVaUPOm546bu9X2UGinN4IsAJeQ
+id: smallbusiness_search
+theme: smallbusiness
+region: footer
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

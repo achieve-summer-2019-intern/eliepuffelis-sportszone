@@ -1,0 +1,22 @@
+uuid: 9a533181-6a4e-4d7e-85b3-e8e3018243f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: '-ZsM1Sr2YziNIqElot-eRloYbRcvPK53mjiG6ds7Y0I'
+id: smallbusiness_powered
+theme: smallbusiness
+region: footer
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

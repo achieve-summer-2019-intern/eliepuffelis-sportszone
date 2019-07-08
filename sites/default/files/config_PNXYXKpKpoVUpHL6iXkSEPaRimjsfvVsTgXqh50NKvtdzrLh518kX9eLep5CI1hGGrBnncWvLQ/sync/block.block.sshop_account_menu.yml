@@ -1,0 +1,26 @@
+uuid: e2b6946a-12a3-4a1b-91a7-5c03cdc02bd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - sshop
+_core:
+  default_config_hash: dMnNMFgldpQQgOvOIksThi7Uhlu8xVco2dXhBRqei2k
+id: sshop_account_menu
+theme: sshop
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

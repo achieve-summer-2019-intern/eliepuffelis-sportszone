@@ -1,0 +1,20 @@
+uuid: af6407b6-6d63-4c34-967c-fea06181e739
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: BYuB1qziSxL41Domj9VEf2UzLbbfwIUgmcZDPCys2ew
+id: yg_flew_page_title
+theme: yg_flew
+region: navigation
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

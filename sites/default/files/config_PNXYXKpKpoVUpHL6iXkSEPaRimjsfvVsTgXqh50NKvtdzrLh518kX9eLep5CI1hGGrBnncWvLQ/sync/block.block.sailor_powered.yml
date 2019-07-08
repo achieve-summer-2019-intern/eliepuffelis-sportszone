@@ -1,0 +1,22 @@
+uuid: 41d2348b-51a3-4f7f-8e25-d7207f1ecacf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sailor
+_core:
+  default_config_hash: CzBDRMWXIMHJ2wpW3KRETe8XA_OlM8ODZ4_p3XNk4Sg
+id: sailor_powered
+theme: sailor
+region: header
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

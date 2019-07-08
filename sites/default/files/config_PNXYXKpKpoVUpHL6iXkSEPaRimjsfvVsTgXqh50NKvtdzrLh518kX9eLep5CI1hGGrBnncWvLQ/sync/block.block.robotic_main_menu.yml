@@ -1,0 +1,26 @@
+uuid: 24abbeaa-a984-4ff2-8ae7-e0991c503d8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: Rj47RgpfbT6hSOpDsXKmCdF5HGEPBOX8caEkyeDRO4A
+id: robotic_main_menu
+theme: robotic
+region: navigation
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

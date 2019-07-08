@@ -1,0 +1,26 @@
+uuid: c8df59ac-a391-4ac0-849f-c1e5265fe41c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - theone
+_core:
+  default_config_hash: d99DFYwcsS3T3yOmWYYtVUK_s55wP-HnegXe0GvtsBs
+id: theone_footer
+theme: theone
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

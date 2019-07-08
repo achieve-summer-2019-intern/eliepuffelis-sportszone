@@ -1,0 +1,11 @@
+facebook: 'https://www.facebook.com'
+twitter: 'https://www.twitter.com'
+instagram: 'https://www.instagram.com'
+linkedin: 'https://www.linkedin.com'
+google_plus: 'https://plus.google.com'
+pinterest: 'https://in.pinterest.com'
+copyright: '2018 Free Drupal Theme. All Rights Reserved.'
+company_name: 'Young Globes'
+company_url: 'https://www.youngglobes.com'
+_core:
+  default_config_hash: NJCBdry_Ov8qRzJ-iA10cJNjbg0Gt6niWRARSPMJpq0

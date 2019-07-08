@@ -1,0 +1,22 @@
+uuid: 4bf939da-afc9-4c5f-811c-65df619d46e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sailor
+_core:
+  default_config_hash: EfUvpv6HuARUPUIy6503fIE9WvsGJXHEVqzxjerr8oM
+id: sailor_content
+theme: sailor
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

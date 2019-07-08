@@ -1,0 +1,24 @@
+uuid: 40938c3b-db96-4ca2-a656-db9d1f9d1903
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bottom_grid
+  module:
+    - views
+  theme:
+    - business_responsive_theme
+id: views_block__bottom_grid_block_1_2
+theme: business_responsive_theme
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:bottom_grid-block_1'
+settings:
+  id: 'views_block:bottom_grid-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 105f721d-6ff3-4b9b-bdc2-b5e79b0ed58f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: ezlPRLjewWTFxdSznLfIlonFACfo-Nm_W3WU8A_bsHA
+id: yg_flew_local_actions
+theme: yg_flew
+region: navigation
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

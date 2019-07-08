@@ -1,0 +1,22 @@
+uuid: 95bea955-064c-4269-a876-bcae06241a91
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sales_zymphonies_theme
+_core:
+  default_config_hash: 1GUwFJPSFP2yptgKYKIYQS3YfAXbWgzR-bQ_TQARkNc
+id: sales_zymphonies_theme_messages
+theme: sales_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

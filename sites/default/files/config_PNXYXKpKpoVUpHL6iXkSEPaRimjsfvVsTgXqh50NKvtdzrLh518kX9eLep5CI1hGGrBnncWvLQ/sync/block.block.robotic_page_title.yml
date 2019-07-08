@@ -1,0 +1,20 @@
+uuid: 22be626e-8673-4142-b4e4-b131c32ae034
+langcode: en
+status: true
+dependencies:
+  theme:
+    - robotic
+_core:
+  default_config_hash: HHU2K5DwxEWYOC8LKf7K5AyOvapnwNsgOhOS39EEFLU
+id: robotic_page_title
+theme: robotic
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

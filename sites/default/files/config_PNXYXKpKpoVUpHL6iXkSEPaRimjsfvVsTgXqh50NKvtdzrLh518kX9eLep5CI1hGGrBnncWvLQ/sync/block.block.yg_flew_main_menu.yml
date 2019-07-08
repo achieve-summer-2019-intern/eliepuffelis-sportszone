@@ -1,0 +1,26 @@
+uuid: ad4f6ade-4d30-4e58-9bb2-044fd5b78d9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: VLTHnMNSTH3n6hTor_ZGEpndhx1Y3ECbY8TaDSfSvIM
+id: yg_flew_main_menu
+theme: yg_flew
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

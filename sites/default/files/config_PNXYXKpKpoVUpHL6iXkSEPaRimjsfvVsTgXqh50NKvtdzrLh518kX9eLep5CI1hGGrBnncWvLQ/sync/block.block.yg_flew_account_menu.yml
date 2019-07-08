@@ -1,0 +1,26 @@
+uuid: b3a93e4f-91a6-4995-b3da-1a2d42bbb121
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: oV6Af8TTFJCE-8FOVOAyYFCHaSWOj9w_Ln1x5xj_L9w
+id: yg_flew_account_menu
+theme: yg_flew
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

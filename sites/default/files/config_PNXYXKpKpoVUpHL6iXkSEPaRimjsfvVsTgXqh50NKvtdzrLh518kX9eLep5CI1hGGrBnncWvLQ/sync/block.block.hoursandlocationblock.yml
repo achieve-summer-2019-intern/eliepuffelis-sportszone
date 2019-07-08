@@ -1,0 +1,25 @@
+uuid: 792876fa-5461-40db-b9e1-662bfe24f408
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1f823fb7-2353-48fe-9a4b-fa12ae54c4c8'
+  module:
+    - block_content
+  theme:
+    - industrial_zymphonies_theme
+id: hoursandlocationblock
+theme: industrial_zymphonies_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:1f823fb7-2353-48fe-9a4b-fa12ae54c4c8'
+settings:
+  id: 'block_content:1f823fb7-2353-48fe-9a4b-fa12ae54c4c8'
+  label: 'Hours and Location'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

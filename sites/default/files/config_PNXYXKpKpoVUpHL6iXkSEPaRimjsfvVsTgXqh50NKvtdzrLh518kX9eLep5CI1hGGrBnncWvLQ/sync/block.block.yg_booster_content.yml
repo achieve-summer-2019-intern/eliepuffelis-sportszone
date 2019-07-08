@@ -1,0 +1,22 @@
+uuid: 7e19b54f-59c5-45d9-960d-3c5ee0e12f3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_booster
+_core:
+  default_config_hash: TnHVR9L1st6KM8c7sDJXZoUbpBUWBGJlz3kRZglGZ5o
+id: yg_booster_content
+theme: yg_booster
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

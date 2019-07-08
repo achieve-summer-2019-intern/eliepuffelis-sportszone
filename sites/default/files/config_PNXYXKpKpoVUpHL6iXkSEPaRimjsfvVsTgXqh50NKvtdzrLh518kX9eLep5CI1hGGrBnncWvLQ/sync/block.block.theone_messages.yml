@@ -1,0 +1,22 @@
+uuid: d1eeaf37-26af-4039-8830-d39202b27c5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - theone
+_core:
+  default_config_hash: CybDyQJYsoDmybEofydWzBFuy_w-SZ2YjEE-Llw2jMo
+id: theone_messages
+theme: theone
+region: content
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 4df9cad6-953a-40bf-864f-c93c28853c46
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sailor
+_core:
+  default_config_hash: ezlPRLjewWTFxdSznLfIlonFACfo-Nm_W3WU8A_bsHA
+id: sailor_local_actions
+theme: sailor
+region: header
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

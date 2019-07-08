@@ -1,0 +1,22 @@
+uuid: 01690dd2-3d95-406f-b288-36bbc4c20b56
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - paraboot
+_core:
+  default_config_hash: J0mu4I9vKBvBEsx1fY5zmoxN0tSVDlGOftdzwrn092k
+id: paraboot_help
+theme: paraboot
+region: content
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

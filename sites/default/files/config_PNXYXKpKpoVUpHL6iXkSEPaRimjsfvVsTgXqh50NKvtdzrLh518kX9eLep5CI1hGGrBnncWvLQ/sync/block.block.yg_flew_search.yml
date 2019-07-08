@@ -1,0 +1,22 @@
+uuid: f6a59830-fff0-465f-81f1-794dd4985381
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: GNE_YnpyaapuvxKTfzBFVMnm6mv-p0yeO8AKpxipGys
+id: yg_flew_search
+theme: yg_flew
+region: navigation
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

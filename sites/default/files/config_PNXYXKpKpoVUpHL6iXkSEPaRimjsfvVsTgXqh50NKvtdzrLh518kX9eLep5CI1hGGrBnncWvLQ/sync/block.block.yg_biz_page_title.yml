@@ -1,0 +1,27 @@
+uuid: 7b2fa67d-6ca9-4de2-9a58-ceae402d9651
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: Lzv8B3p_Bvswr50DCIFVwAz8EliQwAkhrf9HtbDdo8E
+id: yg_biz_page_title
+theme: yg_biz
+region: navigation
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

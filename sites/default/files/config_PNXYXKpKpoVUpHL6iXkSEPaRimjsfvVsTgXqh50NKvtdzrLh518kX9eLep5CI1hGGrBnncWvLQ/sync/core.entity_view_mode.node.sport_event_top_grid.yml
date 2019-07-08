@@ -1,0 +1,10 @@
+uuid: e3fe7f10-0d4c-43bc-bf73-65ea32f3abda
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.sport_event_top_grid
+label: 'Sport Event Top Grid'
+targetEntityType: node
+cache: true

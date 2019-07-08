@@ -1,0 +1,22 @@
+uuid: a35a7727-a9f6-4948-8c3b-63d89dc98161
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - paraboot
+_core:
+  default_config_hash: sw1KFUdHDaPrUxsqDFmjVbmuEFZEXUd8aSDLbPrbHQM
+id: paraboot_search
+theme: paraboot
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

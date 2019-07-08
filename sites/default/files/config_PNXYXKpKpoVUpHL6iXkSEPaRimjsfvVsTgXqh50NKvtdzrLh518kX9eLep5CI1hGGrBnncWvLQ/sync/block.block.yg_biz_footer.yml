@@ -1,0 +1,26 @@
+uuid: aa15e9ba-6cf9-42d1-8a09-98dbe49c4223
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: ez4Xw_f7CjeLjnhunbZ8Ue377vFn84c154zohxtREeo
+id: yg_biz_footer
+theme: yg_biz
+region: navigation
+weight: -1
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Company
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

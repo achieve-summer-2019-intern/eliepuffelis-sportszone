@@ -1,0 +1,22 @@
+uuid: 4d812752-923f-453f-8ec8-f8eba7573cdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: fcTW94Uv2xKyeTAe4pkzgv7KtKOk8JR5nN1XD_yMR94
+id: yg_biz_messages
+theme: yg_biz
+region: navigation
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

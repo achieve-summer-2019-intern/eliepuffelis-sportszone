@@ -1,0 +1,22 @@
+uuid: c9e05b8d-a587-4a7b-ade2-dddfb9f844fc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yg_flew
+_core:
+  default_config_hash: m16xwKAk4e40tHfNipsS95p1M1UYzTgjVKGWwxEiK48
+id: yg_flew_local_tasks
+theme: yg_flew
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

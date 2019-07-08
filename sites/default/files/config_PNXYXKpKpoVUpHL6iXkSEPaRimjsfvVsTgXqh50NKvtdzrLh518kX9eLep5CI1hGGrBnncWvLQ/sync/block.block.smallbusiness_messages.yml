@@ -1,0 +1,22 @@
+uuid: 22ea38b3-4e64-4ab6-bd6d-d072a41dfbcd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smallbusiness
+_core:
+  default_config_hash: 6F33cUJuWVjz056v0POoTfxmazAOsajCJuvF-h7D1TE
+id: smallbusiness_messages
+theme: smallbusiness
+region: footer
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

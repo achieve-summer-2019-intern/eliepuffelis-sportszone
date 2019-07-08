@@ -1,0 +1,22 @@
+uuid: b1cf3a01-4636-4b0c-a112-5d904a195680
+langcode: en
+status: true
+dependencies:
+  theme:
+    - paraboot
+_core:
+  default_config_hash: nn1Lk6mCvPylf1Me1COvig7AfIgavwQ101ON6ojvfkA
+id: paraboot_local_tasks
+theme: paraboot
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

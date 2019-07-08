@@ -1,0 +1,13 @@
+facebook_url: 'https://www.facebook.com'
+twitter_url: 'https://www.twitter.com'
+google_plus: 'https://plus.google.com'
+instagram_url: 'https://www.instagram.com'
+pinterest_url: 'https://www.pinterest.com'
+address: 'Mauris nulla urna, feugiat sit amet Ante aliquam neque, Hendrerit.'
+email: info@example.com
+phone_no: '(+91) 123-456-7890'
+time: 'Mon to Sat 9.00am to 6.00pm (Sunday closed)'
+cta_link: 'https://www.youtube.com/'
+cta_desc: 'Fusce quis ipsum Eget arcu imperdiet'
+_core:
+  default_config_hash: Qq4F1tlSaBSF63-VcX2uOmFH6zbul0eAtr0rx7VDCBQ

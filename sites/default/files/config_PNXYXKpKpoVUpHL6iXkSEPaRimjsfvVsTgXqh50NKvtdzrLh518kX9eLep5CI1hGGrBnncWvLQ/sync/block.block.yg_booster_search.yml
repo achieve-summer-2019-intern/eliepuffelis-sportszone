@@ -1,0 +1,22 @@
+uuid: 4fbb3acb-6093-4132-bd66-0ae9ec80c160
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - yg_booster
+_core:
+  default_config_hash: eG9oK8j9uKqoLZxekVaUPOm546bu9X2UGinN4IsAJeQ
+id: yg_booster_search
+theme: yg_booster
+region: footer
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

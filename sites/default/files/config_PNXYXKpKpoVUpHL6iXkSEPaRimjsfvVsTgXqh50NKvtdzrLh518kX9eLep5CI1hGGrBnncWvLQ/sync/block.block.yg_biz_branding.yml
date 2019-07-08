@@ -1,0 +1,25 @@
+uuid: 123e126c-bcce-440d-96dd-445f5702981b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_biz
+_core:
+  default_config_hash: 3XUwk0qCWTFvPvFCwgES5Ktw_5TGA6ENnlk7qLlQXCE
+id: yg_biz_branding
+theme: yg_biz
+region: navigation
+weight: -2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

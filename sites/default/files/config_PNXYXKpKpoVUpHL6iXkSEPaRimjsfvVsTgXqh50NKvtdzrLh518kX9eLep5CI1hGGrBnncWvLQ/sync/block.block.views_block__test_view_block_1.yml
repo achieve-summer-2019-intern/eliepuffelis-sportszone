@@ -1,0 +1,24 @@
+uuid: b922a563-0960-48b3-8ffb-85e5068d1005
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.test_view
+  module:
+    - views
+  theme:
+    - industrial_zymphonies_theme
+id: views_block__test_view_block_1
+theme: industrial_zymphonies_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:test_view-block_1'
+settings:
+  id: 'views_block:test_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

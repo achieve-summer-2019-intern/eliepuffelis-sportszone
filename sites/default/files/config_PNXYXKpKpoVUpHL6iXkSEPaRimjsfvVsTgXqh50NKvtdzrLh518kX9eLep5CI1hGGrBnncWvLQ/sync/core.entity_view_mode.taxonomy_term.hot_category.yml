@@ -1,0 +1,12 @@
+uuid: 3934aafd-65f8-4aab-9431-40e30ec2ee11
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: aBmcOlSJ1uvPnEyU4XXN5b6bvSMGHnIiAQZOTskq7DU
+id: taxonomy_term.hot_category
+label: 'Hot Category'
+targetEntityType: taxonomy_term
+cache: true

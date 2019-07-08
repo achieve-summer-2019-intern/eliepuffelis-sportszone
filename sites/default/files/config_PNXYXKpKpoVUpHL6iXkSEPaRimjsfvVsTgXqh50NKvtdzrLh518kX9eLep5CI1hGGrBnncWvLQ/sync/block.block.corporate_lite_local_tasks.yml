@@ -1,0 +1,22 @@
+uuid: 70446e56-8c50-4a38-8932-cf096e71ad8f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: 07UvOJvrEeLC7WKhrx5PcLo8BQviyZVgfIK3uv9_86s
+id: corporate_lite_local_tasks
+theme: corporate_lite
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

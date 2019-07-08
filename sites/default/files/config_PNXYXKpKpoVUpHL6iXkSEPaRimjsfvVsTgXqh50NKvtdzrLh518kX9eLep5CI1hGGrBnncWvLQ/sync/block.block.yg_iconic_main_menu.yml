@@ -1,0 +1,26 @@
+uuid: 0dc5adb9-1958-45e8-8850-03647019829c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - yg_iconic
+_core:
+  default_config_hash: gWbF7k4NUOFiEtv9p_QxfgpeM3e6UXuJPiPxNPhbuQw
+id: yg_iconic_main_menu
+theme: yg_iconic
+region: navigation
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

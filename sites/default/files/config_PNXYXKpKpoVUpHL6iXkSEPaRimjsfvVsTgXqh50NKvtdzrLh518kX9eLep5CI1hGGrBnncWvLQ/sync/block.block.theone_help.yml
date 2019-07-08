@@ -1,0 +1,22 @@
+uuid: f10f5e9c-0901-424a-bea4-7ba957a2d1cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - theone
+_core:
+  default_config_hash: J0mu4I9vKBvBEsx1fY5zmoxN0tSVDlGOftdzwrn092k
+id: theone_help
+theme: theone
+region: content
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

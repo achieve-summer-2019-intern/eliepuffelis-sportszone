@@ -1,0 +1,22 @@
+uuid: be5bcf73-ffb9-4698-b65f-aab4593ec4d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - robotic
+_core:
+  default_config_hash: pE3eImMhAZC8V5hJIapnFmQ4IOHhGqeOZWCe0g47al8
+id: robotic_help
+theme: robotic
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

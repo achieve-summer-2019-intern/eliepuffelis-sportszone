@@ -1,0 +1,22 @@
+uuid: 0d93fe5b-c11f-43ba-96ed-c8064a249081
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sailor
+_core:
+  default_config_hash: MK3pMt7yuVr14DIcEn5GUyJ65F2-NUsupXo87h45hIs
+id: sailor_messages
+theme: sailor
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

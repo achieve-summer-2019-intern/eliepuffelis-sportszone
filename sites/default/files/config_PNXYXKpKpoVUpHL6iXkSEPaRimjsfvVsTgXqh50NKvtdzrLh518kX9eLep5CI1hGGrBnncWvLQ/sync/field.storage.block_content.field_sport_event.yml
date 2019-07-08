@@ -1,0 +1,20 @@
+uuid: c5f7b2c4-bbba-4ff3-b580-f267ba4b5034
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+id: block_content.field_sport_event
+field_name: field_sport_event
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

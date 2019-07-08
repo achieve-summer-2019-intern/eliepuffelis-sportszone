@@ -1,0 +1,22 @@
+uuid: 8a4b0144-04a4-47dc-8e00-8482571d3323
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yg_booster
+_core:
+  default_config_hash: 6F33cUJuWVjz056v0POoTfxmazAOsajCJuvF-h7D1TE
+id: yg_booster_messages
+theme: yg_booster
+region: footer
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

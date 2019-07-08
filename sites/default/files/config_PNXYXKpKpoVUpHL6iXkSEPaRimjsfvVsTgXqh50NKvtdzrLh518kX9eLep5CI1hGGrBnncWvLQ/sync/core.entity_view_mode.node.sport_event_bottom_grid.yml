@@ -1,0 +1,10 @@
+uuid: f93ded7c-a739-459c-b63c-76ac2629cc1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.sport_event_bottom_grid
+label: 'Sport Event Bottom Grid'
+targetEntityType: node
+cache: true

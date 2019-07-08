@@ -1,0 +1,22 @@
+uuid: a1d24d85-3efa-4bd2-bb38-d1f123ca8907
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - paraboot
+_core:
+  default_config_hash: Fuvo_V2eVvIP87aTfCPvxZp6d5ggdIwcWaPSVVRKsa8
+id: paraboot_content
+theme: paraboot
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

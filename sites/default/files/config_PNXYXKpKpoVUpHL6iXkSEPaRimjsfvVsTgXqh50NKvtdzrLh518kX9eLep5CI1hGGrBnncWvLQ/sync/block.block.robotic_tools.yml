@@ -1,0 +1,26 @@
+uuid: 998e9ea3-baf8-411b-b1a8-0fedcb278daf
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - robotic
+_core:
+  default_config_hash: 8_3PB1iAXEq3s5YTTv6r_GzBRF0xh9xdUI5id2RdoNc
+id: robotic_tools
+theme: robotic
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
