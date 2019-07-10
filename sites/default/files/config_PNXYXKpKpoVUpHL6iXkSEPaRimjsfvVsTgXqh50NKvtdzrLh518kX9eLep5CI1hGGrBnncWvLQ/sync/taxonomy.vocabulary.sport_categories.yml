@@ -2,7 +2,7 @@ uuid: 5e7e343c-011e-4b4e-bc98-507551c6b1e2
 langcode: en
 status: true
 dependencies: {  }
-name: 'Sport Categories'
+name: Sports
 vid: sport_categories
 description: ''
 hierarchy: 1

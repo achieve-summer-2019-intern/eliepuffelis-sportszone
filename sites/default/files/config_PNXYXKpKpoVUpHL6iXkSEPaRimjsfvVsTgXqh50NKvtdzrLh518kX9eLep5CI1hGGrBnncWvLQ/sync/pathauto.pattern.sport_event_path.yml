@@ -1,0 +1,22 @@
+uuid: eb0a5d7a-9bb5-4024-97e3-f3e196a7493b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: sport_event_path
+label: 'Sport Event Path'
+type: 'canonical_entities:node'
+pattern: '/sports/[node:field_type_of_event:0:entity]/[node:field_type_of_event:1:entity]/[node:field_type_of_event:2:entity]/[node:title]'
+selection_criteria:
+  c40578cc-d434-4599-a7ec-e653dc2c5cd3:
+    id: node_type
+    bundles:
+      sporting_event: sporting_event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c40578cc-d434-4599-a7ec-e653dc2c5cd3
+selection_logic: and
+weight: -5
+relationships: {  }

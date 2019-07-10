@@ -17,16 +17,16 @@ show_social_icon: 1
 show_credit_link: 0
 show_slideshow: 1
 no_of_slides: '3'
-slide_title_1: 'Barcelona Repeat as Champions'
-slide_description_1: 'Leonel Messi leads Barcelona to multiple cups this season'
+slide_title_1: 'Barcelona repeat as La Liga Champions'
+slide_description_1: 'Lionel Messi leads Barcelona to multiple cups this season. However, the Champions League is the only cup the captain wants.'
 slide_url_1: ''
 slide_image_path_1: /images/slider/slide_01.jpg
-slide_title_2: 'Lebron''s Lakers'
-slide_description_2: 'Will the lakers be the best team in Los Angeles?'
+slide_title_2: 'Lebron, Davis and Company'
+slide_description_2: "Will the lakers be the best team in Los Angeles even with Kawhi\r\nand Paul George on the Clippers?"
 slide_url_2: ''
 slide_image_path_2: /images/slider/slide_02.jpg
 slide_title_3: 'Surf in San Diego'
-slide_description_3: 'San Diego is coming up in the desired surfing places'
+slide_description_3: "Fourth of July's weekend Pro Am did not disappoint with awesome display of local talent.\r\n"
 slide_url_3: ''
 slide_image_path_3: /images/slider/slide_03.jpg
 _core:
