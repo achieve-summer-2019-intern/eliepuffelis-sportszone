@@ -1,0 +1,24 @@
+uuid: 8c208241-160c-4f1c-808f-cbff48093fbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bottom_grid
+  module:
+    - views
+  theme:
+    - elie
+id: elie_views_block__bottom_grid_block_1_2
+theme: elie
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:bottom_grid-block_1'
+settings:
+  id: 'views_block:bottom_grid-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

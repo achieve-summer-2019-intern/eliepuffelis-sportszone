@@ -1,0 +1,27 @@
+uuid: ee43127b-cd48-4f45-809a-779f676a4c98
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - elie
+_core:
+  default_config_hash: WBBpOfroLTC3vMi_qGBQ-2UvGKpJDfivf42BOI2Ve94
+id: elie_account_menu
+theme: elie
+region: top_header
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

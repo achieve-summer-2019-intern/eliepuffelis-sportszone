@@ -1,6 +1,6 @@
 uuid: e2b6946a-12a3-4a1b-91a7-5c03cdc02bd2
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,7 +12,7 @@ _core:
   default_config_hash: dMnNMFgldpQQgOvOIksThi7Uhlu8xVco2dXhBRqei2k
 id: sshop_account_menu
 theme: sshop
-region: navigation_collapsible
+region: ''
 weight: -7
 provider: null
 plugin: 'system_menu_block:account'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 1
+  expand_all_items: false
 visibility: {  }

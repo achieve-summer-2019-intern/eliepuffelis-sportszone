@@ -1,0 +1,20 @@
+uuid: 21a94119-6596-4c25-be34-5af4649d5506
+langcode: en
+status: false
+dependencies:
+  theme:
+    - elie
+_core:
+  default_config_hash: DdH7dWrHErz8GXkE9qSlOMyL2tp2fmGXcQcKtv1u6QU
+id: elie_local_actions
+theme: elie
+region: top_header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

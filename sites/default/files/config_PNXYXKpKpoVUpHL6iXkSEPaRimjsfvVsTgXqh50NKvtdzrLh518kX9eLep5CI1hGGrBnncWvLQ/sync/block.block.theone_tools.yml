@@ -1,6 +1,6 @@
 uuid: f6c31e5b-9d0f-4f9f-b1c4-b55ef3937cb2
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -12,7 +12,7 @@ _core:
   default_config_hash: pniBX-qx0km_xEJ-zQdo_jUjI3whmWIxhdyKVH4_qqc
 id: theone_tools
 theme: theone
-region: sidebar_second
+region: ''
 weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
@@ -23,4 +23,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

@@ -1,6 +1,6 @@
 uuid: 923c9382-94b3-4d41-9582-b44c3fc90243
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,7 +12,7 @@ _core:
   default_config_hash: asyXkJ-XdD2F1rHCZlW9nF9CLBVVQIjYOJryO3Eg9lc
 id: sales_zymphonies_theme_account_menu
 theme: sales_zymphonies_theme
-region: auto_hidden_block
+region: ''
 weight: 11
 provider: null
 plugin: 'system_menu_block:account'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 2
+  expand_all_items: false
 visibility: {  }

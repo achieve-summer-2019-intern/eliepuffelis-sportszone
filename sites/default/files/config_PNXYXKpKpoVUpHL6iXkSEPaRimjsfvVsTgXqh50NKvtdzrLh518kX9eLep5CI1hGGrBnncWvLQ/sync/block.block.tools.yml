@@ -1,6 +1,6 @@
 uuid: af4ca7e5-7d80-4cbf-9551-af65c4d53877
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -12,7 +12,7 @@ _core:
   default_config_hash: nZDl4J9eNBOsTCybHEC7cLMK3FV1YoTVdzRj6Th8OKw
 id: tools
 theme: showcase_lite
-region: sidebar_second
+region: ''
 weight: -4
 provider: null
 plugin: 'system_menu_block:tools'
@@ -23,4 +23,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

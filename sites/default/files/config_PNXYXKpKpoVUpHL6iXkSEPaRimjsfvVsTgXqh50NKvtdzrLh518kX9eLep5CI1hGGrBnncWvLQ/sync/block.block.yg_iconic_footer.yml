@@ -1,6 +1,6 @@
 uuid: 62b5e111-a87c-4dbc-aa50-814085809023
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: ez4Xw_f7CjeLjnhunbZ8Ue377vFn84c154zohxtREeo
 id: yg_iconic_footer
 theme: yg_iconic
-region: navigation
+region: ''
 weight: -2
 provider: null
 plugin: 'system_menu_block:footer'
@@ -23,4 +23,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

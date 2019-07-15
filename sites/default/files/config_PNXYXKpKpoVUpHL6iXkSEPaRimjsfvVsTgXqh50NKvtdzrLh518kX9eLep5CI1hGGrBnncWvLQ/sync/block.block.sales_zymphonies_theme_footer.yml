@@ -1,6 +1,6 @@
 uuid: 03adfe62-226b-4daa-a8ec-3825344cea76
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: 3W49KSnVdutwBs-Mf73onl62t061QJ4_F6uRJe34oa4
 id: sales_zymphonies_theme_footer
 theme: sales_zymphonies_theme
-region: footer_menu
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

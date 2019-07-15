@@ -1,0 +1,30 @@
+uuid: 296ba4f9-ecfb-4e98-a3ea-65a463faf700
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_grid
+  module:
+    - system
+    - views
+  theme:
+    - elie
+id: elie_views_block__top_grid_block_1_2
+theme: elie
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:top_grid-block_1'
+settings:
+  id: 'views_block:top_grid-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,6 +1,6 @@
 uuid: fa25fc6a-dbd9-4609-8679-63d0a8f473fc
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: 0UmoqB0F6fKO9pZKpKCZOX5zI7sB1NzzDhNjlPDqbY4
 id: industrial_zymphonies_theme_footer
 theme: industrial_zymphonies_theme
-region: footer_menu
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

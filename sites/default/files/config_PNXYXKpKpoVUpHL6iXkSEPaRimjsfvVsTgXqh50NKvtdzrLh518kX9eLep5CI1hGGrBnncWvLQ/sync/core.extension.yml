@@ -59,27 +59,11 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
-  industrial_zymphonies_theme: 0
   adminimal_theme: 0
   robotic: 0
-  yg_booster: 0
-  showcase_lite: 0
-  bootstrap: 0
-  vartheme: 0
-  corporate_lite: 0
-  bootstrap_business: 0
-  drupal8_zymphonies_theme: 0
-  sshop: 0
-  smallbusiness: 0
-  theone: 0
   business_responsive_theme: 0
-  yg_biz: 0
-  landingpage_zymphonies_theme: 0
-  yg_flew: 0
-  sailor: 0
-  sales_zymphonies_theme: 0
-  yg_iconic: 0
-  paraboot: 0
+  bootstrap_barrio: 0
+  elie: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,6 +1,6 @@
 uuid: ba451b31-f2c3-4e03-acce-1e926cf822bd
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,7 +12,7 @@ _core:
   default_config_hash: BujZjzDn1ZSsxzcLQxmZx2Og9y38ey2buTrETEHvO4A
 id: industrial_zymphonies_theme_account_menu
 theme: industrial_zymphonies_theme
-region: auto_hidden_block
+region: ''
 weight: 11
 provider: null
 plugin: 'system_menu_block:account'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 2
+  expand_all_items: false
 visibility: {  }

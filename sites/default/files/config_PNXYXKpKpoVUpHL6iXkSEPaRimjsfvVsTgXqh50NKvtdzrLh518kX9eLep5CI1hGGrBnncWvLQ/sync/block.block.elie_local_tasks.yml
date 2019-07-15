@@ -1,0 +1,22 @@
+uuid: 6987d55f-7cef-4612-ae22-37d2924f5783
+langcode: en
+status: false
+dependencies:
+  theme:
+    - elie
+_core:
+  default_config_hash: NJiVaiAVJEVI6En3xIWXCEWZU6B9e0wYR7PL6XWuTn4
+id: elie_local_tasks
+theme: elie
+region: top_header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

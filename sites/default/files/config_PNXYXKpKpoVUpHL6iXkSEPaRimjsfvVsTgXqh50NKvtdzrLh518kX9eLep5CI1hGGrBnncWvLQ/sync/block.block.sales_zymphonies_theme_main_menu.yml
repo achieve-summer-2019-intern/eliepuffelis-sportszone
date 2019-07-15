@@ -1,6 +1,6 @@
 uuid: 3411d98e-35df-484d-b9d7-41fa00858448
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: X5fFGmZTJ5x85XbhgdmnUi43ZG1sV2CAtnqT_x0E3eg
 id: sales_zymphonies_theme_main_menu
 theme: sales_zymphonies_theme
-region: primary_menu
+region: ''
 weight: 10
 provider: null
 plugin: 'system_menu_block:main'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

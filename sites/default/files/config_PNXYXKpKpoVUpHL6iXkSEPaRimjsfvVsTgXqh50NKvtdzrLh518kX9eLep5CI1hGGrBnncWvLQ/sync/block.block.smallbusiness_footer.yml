@@ -1,6 +1,6 @@
 uuid: 4e3c3cf3-e239-4f16-8970-9c9dba058ddf
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: NH5LsopcJ2iBnEhrwaU_lSSSCmbacGeVogQbBR-KSD8
 id: smallbusiness_footer
 theme: smallbusiness
-region: sidebar_second
+region: ''
 weight: -4
 provider: null
 plugin: 'system_menu_block:footer'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

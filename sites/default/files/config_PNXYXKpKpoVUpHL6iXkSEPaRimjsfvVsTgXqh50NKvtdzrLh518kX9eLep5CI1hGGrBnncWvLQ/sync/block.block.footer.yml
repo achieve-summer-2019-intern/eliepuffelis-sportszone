@@ -1,6 +1,6 @@
 uuid: 925cd813-eb59-4919-9624-30df79c605c5
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: dZXpN6IEjFbsyyePltUL7M__x7fSU-CbuKn2_YBkoIc
 id: footer
 theme: showcase_lite
-region: sub_footer_first
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

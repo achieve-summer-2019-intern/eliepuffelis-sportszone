@@ -8,16 +8,16 @@ dependencies:
 id: sport_taxonomy_path
 label: 'Sport Taxonomy Path'
 type: 'canonical_entities:taxonomy_term'
-pattern: '/sports/[term:parents]/[term:name]'
+pattern: '/sports/[term:parents:join-path]/[term:name]'
 selection_criteria:
-  56dca57a-60f7-4c9a-806d-10e1889038cc:
+  166de95e-a659-4aa3-a81c-f3e1c5fc02ee:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       sport_categories: sport_categories
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: 56dca57a-60f7-4c9a-806d-10e1889038cc
+    uuid: 166de95e-a659-4aa3-a81c-f3e1c5fc02ee
 selection_logic: and
 weight: -5
 relationships: {  }

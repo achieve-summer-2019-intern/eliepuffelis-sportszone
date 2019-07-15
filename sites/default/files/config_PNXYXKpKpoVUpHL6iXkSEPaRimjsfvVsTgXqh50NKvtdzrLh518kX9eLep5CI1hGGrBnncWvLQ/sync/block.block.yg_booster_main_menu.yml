@@ -1,6 +1,6 @@
 uuid: ccfedbc0-2ffd-45a8-86c4-f9c12d2b616e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: t1JNLeeniHA8No5P4eb-UqNuKiiUYCqwQou7gHUyarg
 id: yg_booster_main_menu
 theme: yg_booster
-region: navigation
+region: ''
 weight: 3
 provider: null
 plugin: 'system_menu_block:main'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 2
+  expand_all_items: false
 visibility: {  }

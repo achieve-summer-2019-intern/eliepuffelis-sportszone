@@ -7,5 +7,4 @@ _core:
 name: 'Blog Category'
 vid: blog_category
 description: ''
-hierarchy: 0
 weight: 0

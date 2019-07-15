@@ -1,0 +1,25 @@
+uuid: 2b285b75-441f-402a-b958-1657438a5af2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - elie
+_core:
+  default_config_hash: nxEU4WAsb4JTE_-5o-xwsxLmNZQrc3slLHNiinjXwgQ
+id: elie_branding
+theme: elie
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

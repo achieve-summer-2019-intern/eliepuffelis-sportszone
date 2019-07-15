@@ -1,0 +1,22 @@
+uuid: bfe08013-7697-4ef9-a2d1-8a8204bb69b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - elie
+_core:
+  default_config_hash: mHSNJXuVcJpvdchuje4XQjK3Xkvie11-vP5oitKXQAg
+id: elie_breadcrumbs
+theme: elie
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

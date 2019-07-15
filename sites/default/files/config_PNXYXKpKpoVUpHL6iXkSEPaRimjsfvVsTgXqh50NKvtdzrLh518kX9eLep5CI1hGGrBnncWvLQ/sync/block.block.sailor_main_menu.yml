@@ -1,6 +1,6 @@
 uuid: 011e5cc0-6865-4ae0-8bae-ddae8ffebb29
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: VLTHnMNSTH3n6hTor_ZGEpndhx1Y3ECbY8TaDSfSvIM
 id: sailor_main_menu
 theme: sailor
-region: primary_menu
+region: ''
 weight: -6
 provider: null
 plugin: 'system_menu_block:main'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

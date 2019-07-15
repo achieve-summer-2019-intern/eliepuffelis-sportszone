@@ -1,0 +1,134 @@
+uuid: 9bb0d989-f2fc-4538-a4b4-7d47568c6fb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: about
+label: about
+group: null
+description: 'This is the sports zone about page'
+requireAllConditions: true
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: 0
+    uuid: d482f958-b96e-4a02-8e2b-39a613a35ce9
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      3e7236bb-31cb-4ba1-9467-016d62cfd0e8:
+        id: 'block_content:1f823fb7-2353-48fe-9a4b-fa12ae54c4c8'
+        label: 'Hours and location block'
+        provider: block_content
+        label_display: visible
+        status: true
+        info: ''
+        view_mode: full
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        theme: business_responsive_theme
+        css_class: ''
+        unique: 0
+        context_id: about
+        uuid: 3e7236bb-31cb-4ba1-9467-016d62cfd0e8
+      88380bd4-7ea3-4a49-98a0-11ef6835c7c1:
+        id: 'system_menu_block:main'
+        label: 'Main navigation'
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: 0
+        region: primary_menu
+        weight: '0'
+        context_mapping: {  }
+        theme: business_responsive_theme
+        css_class: ''
+        unique: 0
+        context_id: about
+        uuid: 88380bd4-7ea3-4a49-98a0-11ef6835c7c1
+      6e729394-779c-4be5-85be-d8310fc004d2:
+        id: system_breadcrumb_block
+        label: Breadcrumbs
+        provider: system
+        label_display: visible
+        region: breadcrumb
+        weight: '0'
+        context_mapping: {  }
+        theme: business_responsive_theme
+        css_class: ''
+        unique: 0
+        context_id: about
+        uuid: 6e729394-779c-4be5-85be-d8310fc004d2
+      aaa7b180-9eda-416a-b5b6-b6a6734d6624:
+        id: 'superfish:footer'
+        label: Footer
+        provider: superfish
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: false
+        menu_type: vertical
+        style: white
+        arrow: 1
+        shadow: 1
+        speed: fast
+        delay: '800'
+        slide: vertical
+        supposition: 1
+        hoverintent: 1
+        touch: '0'
+        touchbh: '2'
+        touchbp: '768'
+        touchua: '0'
+        touchual: ''
+        touchuam: '0'
+        small: '2'
+        smallbp: '768'
+        smallua: '0'
+        smallual: ''
+        smalluam: '0'
+        smallact: '1'
+        smallset: ''
+        smallasa: 0
+        smallcmc: 0
+        smallecm: ''
+        smallchc: 0
+        smallech: ''
+        smallicm: ''
+        smallich: ''
+        smallamt: ''
+        smallabt: '1'
+        supersubs: 1
+        minwidth: '12'
+        maxwidth: '27'
+        multicolumn: 0
+        multicolumn_depth: '1'
+        multicolumn_levels: '1'
+        pathlevels: '1'
+        expanded: 0
+        clone_parent: 0
+        hide_linkdescription: 0
+        add_linkdescription: 0
+        link_depth_class: 1
+        custom_list_class: ''
+        custom_item_class: ''
+        custom_link_class: ''
+        region: footer_menu
+        weight: '0'
+        context_mapping: {  }
+        theme: business_responsive_theme
+        css_class: ''
+        unique: 0
+        context_id: about
+        uuid: aaa7b180-9eda-416a-b5b6-b6a6734d6624
+    id: blocks
+    saved: false
+    uuid: 45c3a4c1-9d7a-4c14-ab68-31a6f52ae1b1
+    include_default_blocks: 0
+weight: 0

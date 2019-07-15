@@ -1,6 +1,6 @@
 uuid: 9c915616-e20c-4d12-9b1c-67036cac8e40
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: lHV5hXq2bIlb2FOZyNnc5F-c103EDJkMOPXP1uy8FNs
 id: bootstrap_business_main_menu
 theme: bootstrap_business
-region: navigation
+region: ''
 weight: -6
 provider: null
 plugin: 'system_menu_block:main'
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

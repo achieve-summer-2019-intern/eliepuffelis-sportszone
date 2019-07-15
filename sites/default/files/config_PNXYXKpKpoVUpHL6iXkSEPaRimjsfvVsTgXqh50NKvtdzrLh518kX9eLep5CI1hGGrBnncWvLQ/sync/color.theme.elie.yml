@@ -1,0 +1,18 @@
+palette:
+  top: '#25366A'
+  bottom: '#25366A'
+  bg: '#434343'
+  sidebar: '#434343'
+  sidebarborders: '#434343'
+  footer: '#434343'
+  button: '#000000'
+  buttonhover: '#bcbcbc'
+  titleslogan: '#fffeff'
+  text: '#ffffff'
+  link: '#ffffff'
+logo: 'public://color/elie-125a7be1/logo.svg'
+stylesheets:
+  - 'public://color/elie-125a7be1/colors.css'
+files:
+  - 'public://color/elie-125a7be1/logo.svg'
+  - 'public://color/elie-125a7be1/colors.css'

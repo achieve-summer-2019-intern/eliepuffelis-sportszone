@@ -1,0 +1,22 @@
+uuid: b1decbf1-8a33-4a6c-8b56-df33636777e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - elie
+_core:
+  default_config_hash: PHsMgQb4QPenv6CM3bCnBvLXd47tblwbwU8Ep8ndfhY
+id: elie_messages
+theme: elie
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

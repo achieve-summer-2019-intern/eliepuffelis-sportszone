@@ -1,6 +1,6 @@
 uuid: f89f634d-cb29-4b20-91ac-95c4680bbd53
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -12,7 +12,7 @@ _core:
   default_config_hash: pniBX-qx0km_xEJ-zQdo_jUjI3whmWIxhdyKVH4_qqc
 id: paraboot_tools
 theme: paraboot
-region: sidebar_second
+region: ''
 weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
@@ -23,4 +23,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

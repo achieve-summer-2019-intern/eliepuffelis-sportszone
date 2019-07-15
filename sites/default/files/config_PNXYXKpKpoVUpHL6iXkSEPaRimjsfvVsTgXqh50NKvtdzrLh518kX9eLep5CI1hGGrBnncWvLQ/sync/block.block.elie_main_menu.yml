@@ -1,0 +1,27 @@
+uuid: 230b16c9-583c-4004-a1f8-10b785816c56
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - elie
+_core:
+  default_config_hash: t01ZhZsNaguEnZWXmkr1DTxgMJRO8lcJvFZbRvgyI1Y
+id: elie_main_menu
+theme: elie
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

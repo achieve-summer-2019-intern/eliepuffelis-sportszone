@@ -1,6 +1,6 @@
 uuid: 6655d7aa-1bb6-480a-a937-a1217c3813d6
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: ez4Xw_f7CjeLjnhunbZ8Ue377vFn84c154zohxtREeo
 id: sshop_footer
 theme: sshop
-region: footer_third
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
@@ -23,4 +23,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }
