@@ -12,7 +12,7 @@ _core:
   default_config_hash: Ix6kQvNeMv8Z6lStoNZHi6XrmSjkzjyxX3NMZ-M_eUw
 id: elie_footer
 theme: elie
-region: top_header
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

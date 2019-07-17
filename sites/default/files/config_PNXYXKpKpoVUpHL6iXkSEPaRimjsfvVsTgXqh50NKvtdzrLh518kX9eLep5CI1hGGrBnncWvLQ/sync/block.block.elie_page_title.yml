@@ -8,7 +8,7 @@ _core:
   default_config_hash: Vb1hDStpFQ8tshKczE5O48B5uZaVxXBzeSMOS2ax0VI
 id: elie_page_title
 theme: elie
-region: top_header
+region: header
 weight: 0
 provider: null
 plugin: page_title_block

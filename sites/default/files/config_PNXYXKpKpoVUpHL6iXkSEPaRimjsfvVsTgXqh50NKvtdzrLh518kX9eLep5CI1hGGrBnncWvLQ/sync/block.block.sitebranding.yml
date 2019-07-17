@@ -8,8 +8,8 @@ dependencies:
     - elie
 id: sitebranding
 theme: elie
-region: secondary_menu
-weight: 0
+region: top_header
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:

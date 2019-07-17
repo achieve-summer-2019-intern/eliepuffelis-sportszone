@@ -1,6 +1,6 @@
 uuid: bfe08013-7697-4ef9-a2d1-8a8204bb69b2
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: elie_breadcrumbs
 theme: elie
 region: breadcrumb
-weight: -100
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

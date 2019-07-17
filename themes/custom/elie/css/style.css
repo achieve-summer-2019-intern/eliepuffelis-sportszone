@@ -1,5 +1,246 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
+body {
+    width: 100vw;
+    height: 100vh;
+    ;
+}
 
+#page-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page{
+    width: 100%;
+    height: 100%;
+    background-color: #434343 !important; 
+
+}
+
+/*================================ BEGINNING OF HEADER STYLES ====================================*/
+/*
+Setting the dimensions to this header thesection that holds two seperate containers
+each taking up half of its height but it full width 
+*/
+#header{
+    width: 100%;
+    height: 11%;
+}
+
+/*
+Top half of the header that contains logo
+Here we set the gradient background color and give it the height of half of the header section
+*/
+#navbar-top {
+    width: 100%;
+    height: 50% !important;
+    background: rgb(46,36,73);
+    background: linear-gradient(273deg, rgba(46,36,73,1) 0%, rgba(37,54,106,1) 100%);
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*
+container that holds the logo found on the top half of the header 
+located in the navbar-top div
+positioning it according to the parent div "header" and with absoliute we can make this logo containter 
+begin a certain distance from the left in a responsive manner
+*/
+#navbar-top section{
+    position: absolute;
+    left: 10%;
+    width: 10%;
+    height: 50%;
+}
+
+/*
+The actual logo link with background image of the company logo
+takes up the full size of its parent
+*/
+#navbar-top > div > section > a {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(/sites/default/files/eversportlogo_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+Removing the image the logo link contained and instead gave it background image
+*/
+#navbar-top > div > section > a > img {
+    visibility: hidden;
+}
+
+/*
+bottom half of the header that contains the main navigation
+adding linear gradient to match its neighbor above the "navbar-top"
+*/
+#navbar-main {
+    background: rgb(46,36,73);
+    background: linear-gradient(273deg, rgba(46,36,73,1) 0%, rgba(37,54,106,1) 100%);;
+    width: 100%;
+    height: 50% !important;
+    margin: 0; 
+    padding: 0;
+    box-shadow: 0 10px 5px #0000;
+
+}
+
+/*
+styling both containers found in navbar-top and navbar-main
+stretching it full width and full height for easier control
+*/
+.navbar > .container {
+    /*
+    why did i need min-width?
+    */
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*
+container in navbar-main displays flex so menu items 
+hugs the bottom of the header or the container with flex-end
+*/
+#navbar-main > .container {
+    display: flex;
+    align-items: flex-end;
+}
+
+/*
+container of the main nav which takes up the whole size of the bottom half of the header
+display flex  with justify content centers the nav links in the center
+*/
+#superfish-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+/*
+menu tabs take 15% width each of the whole screen
+also the contents inside of them like the links will be centeresd with flex properties
+as well the tabs will have a color change on hover with a trannsition attribute the 
+smoothens the action
+*/
+#superfish-main > li {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgba(0, 0, 0, 0.3) 0.5px;
+    background-color: #3e4980;
+    border-bottom: solid rgba(255, 255, 255, 0.1) 3px;
+    transition: ease-in-out 0.2s;
+    
+}
+
+/*
+tab will receive an underline on hover
+*/
+#superfish-main > li:hover {
+    background-color: #4f5ca2;
+    border-bottom: solid white 3px;
+    
+}
+
+/*
+all links from the tabs have their content/titles centerd
+and have new styles like font type and size
+*/
+a.sf-depth-1 {
+    padding: 0;
+    text-align: center;
+    font-family: arial;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/*
+menu tab/link titles stay white on hover since superfish default 
+isn't white
+*/
+a.sf-depth-1:hover {
+    color:white;
+}
+
+/*
+with the universal selector "*" all descendant elements contained in sf-depth-2
+in this case include all menu items of depth level 2 or more and gives them bg color of white
+*/
+.sf-depth-2 * {
+    background-color: white;
+    transition: ease-in-out 0.2s;
+}
+
+/*
+all menu items of depth 2 or more change to light gray bg on hover
+*/
+.sf-depth-2 *:hover {
+    background-color:rgb(238, 238, 238);
+    
+}
+
+/*
+the actual links of these menu items found with a depth of 2 have a border on the bottom
+and receive a lighter color in text
+*/
+.sf-depth-2 a  {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.4);;
+    border-bottom: solid lightgray 0.1px;
+    transition: ease-in-out 0.3s;
+}
+
+/*
+the link found with a depth of 2 or more change to a dark gray color on hover
+*/
+.sf-depth-2 a:hover {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+/*
+container of expand ">>" widget for menu items of depth 2 or more
+have backgrounf color of blue and are positioned to hug the right of
+menu item and the expand arrow is white in color
+*/
+.sf-depth-2 .sf-sub-indicator {
+    position: absolute;
+    right: 0 !important;
+    min-width: 20%;
+    min-height: 100%;
+    transition: ease-in 0.3s;
+    color: white;
+    background-color: #4f5ca2;
+    
+}
+
+
+/*================================ END OF HEADER STYLES ====================================*/
+
+
+/*================================ BEGINNING OF MIN CONTENT STYLES ====================================*/
+
+
+#main-wrapper {
+    width: 100%;
+}
+
+
+
+
+
+
+ 

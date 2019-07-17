@@ -1,6 +1,6 @@
 uuid: 2b285b75-441f-402a-b958-1657438a5af2
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: nxEU4WAsb4JTE_-5o-xwsxLmNZQrc3slLHNiinjXwgQ
 id: elie_branding
 theme: elie
-region: header
-weight: -6
+region: top_header
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:
