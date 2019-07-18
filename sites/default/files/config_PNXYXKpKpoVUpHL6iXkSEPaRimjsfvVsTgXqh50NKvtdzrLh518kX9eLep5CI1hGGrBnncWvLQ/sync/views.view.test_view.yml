@@ -510,7 +510,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div id=\"list-container\">\r\n{{ field_event_video }}\r\n<div class=\"category\">{{ field_type_of_event }}</div>\r\n<div class=\"title\">{{ title }}</div>\r\n<div class=\"date\">{{ field_event_date }}</div>\r\n</div>"
+            text: "<div id=\"list-container\">\r\n{{ field_event_video }}\r\n<div class=\"dark-overlay\"></div>\r\n<div class=\"sidebar-category\">{{ field_type_of_event }}</div>\r\n<div class=\"sidebar-title\">{{ title }}</div>\r\n<div class=\"sidebar-date\">{{ field_event_date }}</div>\r\n<a id=\"sidebar-replay-button\" href=\"\">RE-PLAY &#x25BA;</a>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
