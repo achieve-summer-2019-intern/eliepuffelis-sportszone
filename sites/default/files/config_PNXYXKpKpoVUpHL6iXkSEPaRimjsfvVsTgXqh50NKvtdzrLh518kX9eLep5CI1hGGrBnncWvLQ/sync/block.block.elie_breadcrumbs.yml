@@ -10,7 +10,7 @@ _core:
   default_config_hash: mHSNJXuVcJpvdchuje4XQjK3Xkvie11-vP5oitKXQAg
 id: elie_breadcrumbs
 theme: elie
-region: breadcrumb
+region: top_header
 weight: -7
 provider: null
 plugin: system_breadcrumb_block

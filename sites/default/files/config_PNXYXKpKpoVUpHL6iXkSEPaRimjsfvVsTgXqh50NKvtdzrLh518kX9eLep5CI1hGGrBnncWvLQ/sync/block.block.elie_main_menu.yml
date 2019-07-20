@@ -12,7 +12,7 @@ _core:
   default_config_hash: t01ZhZsNaguEnZWXmkr1DTxgMJRO8lcJvFZbRvgyI1Y
 id: elie_main_menu
 theme: elie
-region: header
+region: top_header
 weight: -5
 provider: null
 plugin: 'system_menu_block:main'

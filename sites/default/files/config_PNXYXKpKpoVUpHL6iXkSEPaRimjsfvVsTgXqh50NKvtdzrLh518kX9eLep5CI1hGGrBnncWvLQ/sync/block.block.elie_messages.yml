@@ -10,7 +10,7 @@ _core:
   default_config_hash: PHsMgQb4QPenv6CM3bCnBvLXd47tblwbwU8Ep8ndfhY
 id: elie_messages
 theme: elie
-region: header
+region: top_header
 weight: -50
 provider: null
 plugin: system_messages_block

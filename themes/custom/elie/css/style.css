@@ -1,6 +1,3 @@
-
-
-
 body {
     width: 100vw;
     height: 100vh;
@@ -41,7 +38,17 @@ Here we set the gradient background color and give it the height of half of the 
     background: linear-gradient(273deg, rgba(46,36,73,1) 0%, rgba(37,54,106,1) 100%);
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
     
+}
+
+#navbar-top > div {
+    display: flex;
+    flex-direction: row;
+    
+
 }
 
 /*
@@ -70,13 +77,38 @@ takes up the full size of its parent
     background-size: cover;
     background-position: center;
 }
-
 /*
 Removing the image the logo link contained and instead gave it background image
 */
 #navbar-top > div > section > a > img {
     visibility: hidden;
 }
+
+/* top menu */
+
+#block-topnavigation > div.content {
+    position: absolute;
+    left: 200px;
+    top: -35px;
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+}
+
+#top-navigation-menu-link-contentfe805921-9b05-4921-8ffe-317790332eaf {
+    position: absolute;
+    right: 0;
+}
+
+#block-topnavigation > div.content a{ 
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+
+
+/* end of top menu */
 
 
 
@@ -249,9 +281,35 @@ and be centered with automatic left and right margins
     this should change eventually because of admin toolbar
     */
      
-    margin: 0 auto;
-    margin-top: 2% 
+    margin: 0 auto; 
     }
+
+
+/* Page Title */
+#page-wrapper > div.highlighted {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#page-wrapper > div.highlighted > aside {
+    margin: 0;
+    padding: 0;
+}
+
+#block-pagetitle > div.content > h1 > div {
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 25px 0 15px 0;
+}
+
+/* End of Page Title */
+
+
+
+
 
 /*
 set the main container to take up the entire width of its parent
@@ -262,6 +320,7 @@ set the main container to take up the entire width of its parent
     max-height: 100%;
     margin: 0;
     padding: 0;
+   
    
 }
 
@@ -293,26 +352,208 @@ div container or region that holds the sidebar second
     width: 100%;
     max-height: 100%;
 }
+
+
 /*
 container for the top grid
 */
 #block-elie-views-block-top-grid-block-1-2 {
-    width: 100%;
-    max-height: 30%;
+    width: 980px;
+    height: 480px;
     margin: 0;
     padding: 0;
+   
 }
 
-#block-elie-views-block-top-grid-block-1-2 > h2 {
+#block-elie-views-block-top-grid-block-1-2 > div.content {
     width: 100%;
-    height: 100px;
+    height: 450px;
+}
+
+#block-elie-views-block-top-grid-block-1-2 div {
+    margin: 0;
+    padding: 0 !important;
+}
+
+
+
+#block-elie-views-block-top-grid-block-1-2 > h2 {
+    
     color: white;
     margin: 0;
-    display: flex;
-    align-items: center;
-    font-weight: lighter;
-    font-size: 42px;
+    font-size: 24px;
+    margin-bottom: 20px; 
+    border-bottom: solid white 1px;
+    padding-bottom: 5px;
 }
+
+#block-elie-views-block-top-grid-block-1-2 > div.content > div > div > div.view-content.row > div > div {
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+
+}
+/*top-grid-item-1-container*/
+#block-elie-views-block-top-grid-block-1-2 > div.content > div > div > div.view-content.row > div > div > div.col-lg-4.views-col.col-1 {
+    min-width: 475px;
+    height: 400px;
+    background: #292929;
+    margin-right: 15px;
+    box-shadow: 0 1px 7px 2px rgb(45, 45, 45);
+    
+}
+
+#block-elie-views-block-top-grid-block-1-2 > div.content > div > div > div.view-content.row > div > div > div.col-lg-4.views-col.col-1 > div:nth-child(1) > div > a > img {
+    width: 100%;
+    max-height: 270px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+#block-elie-views-block-top-grid-block-1-2 > div.content > div > div > div.view-content.row > div > div > div.col-lg-4.views-col.col-2 {
+    min-width: 475px;
+    height: 400px;
+    background: #292929;
+    margin-right: 15px;
+    box-shadow: 0 1px 7px 2px rgb(45, 45, 45);
+}
+
+
+#block-elie-views-block-top-grid-block-1-2 > div.content > div > div > div.view-content.row > div > div > div.col-lg-4.views-col.col-2 > div:nth-child(1) > div > a > img {
+    width: 100%;
+    max-height: 270px;
+    object-fit: cover;
+}
+
+#replay-button {
+    display: flex;
+    width: 85px;
+    height: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 12px;
+    color: #4f5ca2;
+    font-weight: bold;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 12px;
+    bottom: 150px;
+
+}
+
+
+.top-grid-labels a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+
+}
+
+
+.top-grid-labels {
+    margin: 5px 0 5px 12px !important;
+    color: white;
+}
+
+.top-grid-category {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.top-grid-title {
+    font-size: 36px;
+}
+
+.top-grid-date {
+    font-size: 12px;
+    color: darkgray;
+}
+
+/* End of Top Grid Styles*/
+
+/* beginning of bottom grid styles */ 
+
+#block-elie-views-block-bottom-grid-block-1-2 {
+    width: 980px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#block-elie-views-block-bottom-grid-block-1-2 > div.content {
+    width: 100%;
+    height: 450px;
+}
+
+#block-elie-views-block-bottom-grid-block-1-2 div {
+    margin: 0;
+    padding: 0 !important;
+}
+
+
+#bottom-grid-content {
+    width: 315px;
+    height: 270px;
+    margin-right: 0;
+    margin-bottom: 30px !important;
+    box-shadow: 0 1px 7px 2px rgb(45, 45, 45);
+    background: #292929
+}
+
+
+#bottom-grid-content img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+   
+}
+
+
+
+.bottom-grid-labels a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none !important;
+}
+
+
+.bottom-grid-labels {
+    margin: 5px 0 5px 12px !important;
+    color: white;
+    
+}
+
+.bottom-grid-category {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bottom-grid-title {
+    font-size: 24px;
+}
+
+.bottom-grid-date {
+    font-size: 12px;
+    color: darkgray;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -325,10 +566,10 @@ has a scroll nature with content that overflows
 #sidebar_second {
     
     width: 15%;
-    height: 965px;
+    height: 1022px;
     margin: 0;
     padding: 0;
-    overflow-y: scroll;
+    
     
     
     
@@ -340,8 +581,10 @@ setting it absolute to move it down and align with top grid's top
 */
 #sidebar_second > aside {
     position: absolute;
-    top: 147px;
+    top: 30px;
     width: 100%;
+    height: 100%;
+    overflow: auto;
     
 }
 
@@ -536,6 +779,7 @@ container or ul container
     color: white;
     transform: scale(1.1);
 }
+
 
 
 

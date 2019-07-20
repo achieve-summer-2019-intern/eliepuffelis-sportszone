@@ -8,7 +8,7 @@ _core:
   default_config_hash: DdH7dWrHErz8GXkE9qSlOMyL2tp2fmGXcQcKtv1u6QU
 id: elie_local_actions
 theme: elie
-region: header
+region: top_header
 weight: 20
 provider: null
 plugin: local_actions_block

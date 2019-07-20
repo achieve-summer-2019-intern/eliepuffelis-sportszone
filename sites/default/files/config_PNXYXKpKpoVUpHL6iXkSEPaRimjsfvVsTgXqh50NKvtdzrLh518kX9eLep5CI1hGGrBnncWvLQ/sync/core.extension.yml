@@ -38,6 +38,7 @@ module:
   path: 0
   quickedit: 0
   search: 0
+  semanticviews: 0
   shortcut: 0
   superfish: 0
   system: 0

@@ -10,7 +10,7 @@ _core:
   default_config_hash: oYW8qEyKpFWmGJv73ew2bRvYH19MFvjJ_XL1bAn0Rsk
 id: elie_search
 theme: elie
-region: header
+region: top_header
 weight: -7
 provider: null
 plugin: search_form_block

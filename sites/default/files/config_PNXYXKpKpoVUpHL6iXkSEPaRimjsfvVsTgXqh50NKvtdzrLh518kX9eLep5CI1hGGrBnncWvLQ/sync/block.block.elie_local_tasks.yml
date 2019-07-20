@@ -8,7 +8,7 @@ _core:
   default_config_hash: NJiVaiAVJEVI6En3xIWXCEWZU6B9e0wYR7PL6XWuTn4
 id: elie_local_tasks
 theme: elie
-region: header
+region: top_header
 weight: 0
 provider: null
 plugin: local_tasks_block

@@ -11,7 +11,7 @@ dependencies:
 id: elie_views_block__bottom_grid_block_1_2
 theme: elie
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: 'views_block:bottom_grid-block_1'
 settings:

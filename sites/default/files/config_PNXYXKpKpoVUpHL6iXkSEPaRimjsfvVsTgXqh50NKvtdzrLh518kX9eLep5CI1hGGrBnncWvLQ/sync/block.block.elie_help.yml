@@ -10,7 +10,7 @@ _core:
   default_config_hash: b7-G4ao41oTE03dP9OtMRi2HYSQiMj22CGIzgGLOOJA
 id: elie_help
 theme: elie
-region: header
+region: top_header
 weight: -30
 provider: null
 plugin: help_block

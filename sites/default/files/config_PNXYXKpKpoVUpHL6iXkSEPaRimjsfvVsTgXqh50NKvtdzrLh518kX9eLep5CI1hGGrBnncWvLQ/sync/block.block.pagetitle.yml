@@ -1,15 +1,13 @@
-uuid: 2de077bd-942c-4041-9671-f8fbcb705780
+uuid: c4ebc04c-e5ce-4d86-84bf-79a1c97d4a3e
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - elie
-_core:
-  default_config_hash: Vb1hDStpFQ8tshKczE5O48B5uZaVxXBzeSMOS2ax0VI
-id: elie_page_title
+id: pagetitle
 theme: elie
-region: header
-weight: 0
+region: highlighted
+weight: -8
 provider: null
 plugin: page_title_block
 settings:

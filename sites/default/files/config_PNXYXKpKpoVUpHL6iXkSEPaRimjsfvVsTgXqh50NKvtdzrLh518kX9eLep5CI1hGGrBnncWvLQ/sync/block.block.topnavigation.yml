@@ -1,22 +1,22 @@
-uuid: 0afc4952-1c5d-4db5-abcd-bd36940af486
+uuid: dae74903-bfee-4dd7-87f2-6c564ff472a9
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.top-navigation
   module:
     - superfish
   theme:
     - elie
-id: mainnavigation
+id: topnavigation
 theme: elie
-region: primary_menu
-weight: -8
+region: top_header
+weight: 0
 provider: null
-plugin: 'superfish:main'
+plugin: 'superfish:top-navigation'
 settings:
-  id: 'superfish:main'
-  label: 'Main navigation'
+  id: 'superfish:top-navigation'
+  label: 'Top Navigation'
   provider: superfish
   label_display: '0'
   level: '1'
