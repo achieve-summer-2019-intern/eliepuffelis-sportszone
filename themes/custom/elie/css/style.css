@@ -89,7 +89,7 @@ Removing the image the logo link contained and instead gave it background image
 #block-topnavigation > div.content {
     position: absolute;
     left: 200px;
-    top: -35px;
+    top: -7px;
     width: 1150px;
     display: flex;
     flex-direction: row;
@@ -778,6 +778,213 @@ container or ul container
     background-color: #3e4980;
     color: white;
     transform: scale(1.1);
+}
+
+/**======================== Form Styles =====================**/
+#intern-first-form {
+    
+    min-width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 3vh;
+    left: calc(50vw - (1345px / 2)); 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+#intern-first-form > fieldset {
+    height: 45px;
+    border: none;
+    outline: none;
+    width: 48%;
+    
+}
+
+#intern-first-form > fieldset > input {
+    padding-left: 14px; ;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    transition: ease-in-out 0.3s;
+    color: white;
+    font-weight: lighter;
+    
+    
+}
+
+#intern-first-form > fieldset > input:hover {
+    border: solid white 4px;
+    border-radius: 25px;
+    
+}
+
+#intern-first-form > fieldset > input::placeholder {
+    color: lightgray;
+}
+
+.form-item-username {
+    min-width: 100%;
+}
+
+.form-item-password {
+    min-width: 100%;
+    
+}
+
+.form-item-password-pass1 > label{
+    color: lightgray;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+.password-field {
+    padding-left: 14px; ;
+    height: 100%;
+    background: none !important;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    transition: ease-in-out 0.3s;
+    color: white;
+    font-weight: lighter;
+    color: white !important;
+}
+
+
+.form-item-password-pass2 > label{
+    color: lightgray;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+
+.password-field:hover {
+    border: solid white 4px;
+    border-radius: 25px;
+}
+
+.password-field::placeholder{
+    color: white;
+}
+
+.password-strength__meter {
+    background: none;
+    padding-left: 14px;
+}
+
+.password-strength__title {
+    padding-left: 14px;
+    font-size: 14px;
+    color: lightgray;
+    display: none;
+}
+
+.form-item-password-pass2 > input {
+    padding-left: 14px; ;
+    height: 100%;
+    background: none !important;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    transition: ease-in-out 0.3s;
+    color: white;
+    font-weight: lighter;
+    color: white !important;
+}
+
+.form-item-password-pass2 > input:hover {
+    border: solid white 4px;
+    border-radius: 25px;
+}
+
+
+.password-confirm {
+    padding-left: 14px;
+    font-size: 14px;
+    color: lightgray;
+    margin-top: 10px;
+   
+}
+
+
+.password-suggestions {
+    display: none !important;
+}
+
+.fieldset-wrapper {
+    width: 1000px;
+    margin: 15px 0;
+    
+}
+
+#edit-active--wrapper {
+    
+    font-size: 16px;
+}
+
+#edit-active--wrapper > legend {
+    min-width: 1000px; 
+    display: flex;
+    justify-content: center;
+
+}
+
+#edit-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+#edit-password {
+    padding: 0 !important;
+    min-height: 250px;
+}
+
+#edit-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+/**
+styles for sign up form submit button
+**/
+
+#edit-submit {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid white;
+    transition: ease-in-out 0.4s;
+    
+}
+
+#edit-submit:hover {
+    background: #4f5ca2;
+    border: none;
+    
 }
 
 

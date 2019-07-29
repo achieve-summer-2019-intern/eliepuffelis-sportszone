@@ -1,0 +1,8 @@
+services:
+  test_service.coffee:
+    class: Drupal\test_service\CoffeeService
+  test_service.intern:
+    class: Drupal\test_service\Intern
+    arguments: [15]
+  
+  
