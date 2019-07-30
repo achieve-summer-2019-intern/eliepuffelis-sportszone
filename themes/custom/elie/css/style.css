@@ -824,7 +824,7 @@ container or ul container
 }
 
 #intern-first-form > fieldset > input::placeholder {
-    color: darkgray;
+    color: rgba(0, 0, 0, 0.45);
     font-size: 13px;
 }
 
@@ -998,9 +998,7 @@ styles for sign up form submit button
 }
 
 #block-pagetitle > div.content > h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     font-size: 17px;
     
 

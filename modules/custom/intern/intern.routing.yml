@@ -22,10 +22,5 @@ intern.first_form:
   requirements:
     _permission: 'access content'
 
-intern.new-user-welcome:
-  path: '/user-welcome'
-  defaults:
-    _title: 'Welcome To Eversport'
-  requirements:
-    _permission: 'access content'
+
   

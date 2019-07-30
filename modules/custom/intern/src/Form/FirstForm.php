@@ -8,6 +8,10 @@ use Drupal\Core\Url;
 
 class FirstForm extends FormBase {
 
+    
+    /*
+    * Build form layout and designate form entries
+    */
     public function buildForm(array $form, FormStateInterface $form_state){
         $form['first_name'] = [
             '#type' => 'textfield',
@@ -37,7 +41,7 @@ class FirstForm extends FormBase {
         $form['phone-number'] = [
             '#type' => 'number',
             //'#title' => 'Phone Number',
-            '#placeholder' => 'Phone Number *',
+            '#placeholder' => 'Phone : ( _____ ) ______-_________ *',
             '#description' => '',
             
 
@@ -68,17 +72,17 @@ class FirstForm extends FormBase {
             // '#default_value' => 2,
             '#options' => array(
               'basketball' => $this
-                ->t('basketball'),
-              'football' => $this
-                ->t('football'),
+                ->t('Basketball'),
               'soccer' => $this
-                ->t('soccer'),
+                ->t('Soccer'),
+              'football' => $this
+                ->t('Football'),
               'baseball' => $this
-                ->t('baseball'),
+                ->t('Baseball'),
               'winter' => $this
-                ->t('winter'),
+                ->t('Winter'),
               'combat' => $this
-                ->t('combat'),
+                ->t('Combat'),
             ),
           );
 
@@ -96,19 +100,13 @@ class FirstForm extends FormBase {
     }
 
     
-
-
-
     public function getFormId() {
         return 'intern_first_form';
     }
 
-    public function validateForm(array &$form, FormStateInterface $form_state){
-        $title = $form_state->getValue('title');
-        // if(empty($title))
-        //     $form_state->setErrorByName('title', 'The title must exist');
-    }
-
+    /*
+    * submitForm will executes stated commands when form is submitted
+    */
     public function submitForm(array &$form, FormStateInterface $form_state) {
         
         
