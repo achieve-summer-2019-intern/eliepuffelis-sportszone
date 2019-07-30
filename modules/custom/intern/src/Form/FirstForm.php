@@ -110,23 +110,17 @@ class FirstForm extends FormBase {
     }
 
     public function submitForm(array &$form, FormStateInterface $form_state) {
-        // $title = $form_state->getValue('title');
-        // drupal_set_mesage('You submitted the form with the title: '.$title);
         
-        foreach ($form_state->getValues() as $key => $value) {
-          drupal_set_message($key . ': ' . $value);
-        }
+        
+        // foreach ($form_state->getValues() as $key => $value) {
+        //   drupal_set_message($key . ': ' . $value);
+        // }
 
 
         
         $redirect_path = '/sports/'.(string)$form_state->getValue(array('active'));
         $url = url::fromUserInput($redirect_path);
         $form_state->setRedirectUrl($url);
-
-        
-        
-        
-        
         //$form->save();
     }
 
