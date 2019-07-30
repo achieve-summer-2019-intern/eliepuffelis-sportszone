@@ -89,7 +89,7 @@ Removing the image the logo link contained and instead gave it background image
 #block-topnavigation > div.content {
     position: absolute;
     left: 200px;
-    top: -7px;
+    top: -35px;
     width: 1150px;
     display: flex;
     flex-direction: row;

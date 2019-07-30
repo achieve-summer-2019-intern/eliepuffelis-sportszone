@@ -14,7 +14,6 @@ intern.dynamic_content:
   requirements:
     _permission: 'access content'
 
-
 intern.first_form:
   path: '/first-form'
   defaults: 
@@ -22,3 +21,11 @@ intern.first_form:
     _title: 'Join Eversport'
   requirements:
     _permission: 'access content'
+
+intern.new-user-welcome:
+  path: '/user-welcome'
+  defaults:
+    _title: 'Welcome To Eversport'
+  requirements:
+    _permission: 'access content'
+  

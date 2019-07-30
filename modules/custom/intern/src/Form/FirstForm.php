@@ -4,6 +4,7 @@ namespace Drupal\intern\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
 
 class FirstForm extends FormBase {
 
@@ -64,20 +65,20 @@ class FirstForm extends FormBase {
             '#type' => 'radios',
             '#title' => $this
               ->t('Choose Your  Favorite  Sport'),
-            //'#default_value' => 2,
+            // '#default_value' => 2,
             '#options' => array(
-              0 => $this
-                ->t('Basketball'),
-              1 => $this
-                ->t('Football'),
-              2 => $this
-                ->t('Soccer'),
-              3 => $this
-                ->t('Baseball'),
-              4 => $this
-                ->t('Winter'),
-              5 => $this
-                ->t('Combat'),
+              'basketball' => $this
+                ->t('basketball'),
+              'football' => $this
+                ->t('football'),
+              'soccer' => $this
+                ->t('soccer'),
+              'baseball' => $this
+                ->t('baseball'),
+              'winter' => $this
+                ->t('winter'),
+              'combat' => $this
+                ->t('combat'),
             ),
           );
 
@@ -94,14 +95,7 @@ class FirstForm extends FormBase {
         return $form;
     }
 
-    // radio buttons
-    // $form['message'] = [
-    //     '#type' => 'radios',
-    //     '#title' => t('Preview comment'),
-    //     // '#default_value' => variable_get('comment_preview', 1),
-    //     '#options' => array(t('Optional'), t('Required')),
-
-    // ];
+    
 
 
 
@@ -111,15 +105,32 @@ class FirstForm extends FormBase {
 
     public function validateForm(array &$form, FormStateInterface $form_state){
         $title = $form_state->getValue('title');
-        if(empty($title))
-            $form_state->setErrorByName('title', 'The title must exist');
+        // if(empty($title))
+        //     $form_state->setErrorByName('title', 'The title must exist');
     }
 
     public function submitForm(array &$form, FormStateInterface $form_state) {
-        $title = $form_state->getValue('title');
-        drupal_set_mesage('You submitted the form with the title: '.$title);
+        // $title = $form_state->getValue('title');
+        // drupal_set_mesage('You submitted the form with the title: '.$title);
+        
+        foreach ($form_state->getValues() as $key => $value) {
+          drupal_set_message($key . ': ' . $value);
+        }
+
+
+        
+        $redirect_path = '/sports/'.(string)$form_state->getValue(array('active'));
+        $url = url::fromUserInput($redirect_path);
+        $form_state->setRedirectUrl($url);
+
+        
+        
+        
+        
         //$form->save();
     }
+
+
 
 
 } 
